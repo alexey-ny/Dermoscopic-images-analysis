@@ -1,4 +1,4 @@
-# Desrmoscopic images analysis
+# Dermoscopic images analysis
 Here I attempt to analyze quality/acceptability of the images, so the PCP could retake an image immediately, thus reducing repeat patients' visits.
 
 This is work in progress, therefore this repository contains a set of notebooks reflecting the progress.

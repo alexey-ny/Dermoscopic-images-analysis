@@ -1,5 +1,7 @@
 # Desrmoscopic images analysis
-Here we attempt to analyze quality/acceptability of the images, so the PCP could retake an image immediately, thus reducing repeat patients' visits.
+Here I attempt to analyze quality/acceptability of the images, so the PCP could retake an image immediately, thus reducing repeat patients' visits.
+
+This is work in progress, therefore this repository contains a set of notebooks reflecting the progress.
 
 There are a few common problems possible: 
 1) bluriness - caused by out of focus, or movement
@@ -12,4 +14,7 @@ However with close-up images of the skin we have to deal with very smooth, mostl
 In the <a href='https://github.com/alexey-ny/Desrmascopic-images-analysis/blob/main/eda-blur-rgb-hsv-ycrcb.ipynb'>second notebook</a> I introduce analysis of the image per each channel in 3 color spaces. Computing Sharpness Index for each channel gives us more features for each image, providing additional information for more confident conclusion on the image sharpness. 
 Also I compute full contrast and clipped contrast (to remove over/underexposed spots, 1% outliers), and percentiles of intensities in each color space. This gives us data to decide if the image is suitable in terms of the exposure.
 
-In the <a href='https://github.com/alexey-ny/Desrmascopic-images-analysis/blob/main/sharpness-contrast-intensities-mi-ie-maps.ipynb'>third notebook</a> I want to include  Melanin Index and Erythema Index. I believe we can use it as for image quality analysis and so for our future lesion classifier.
+In the <a href='https://github.com/alexey-ny/Desrmascopic-images-analysis/blob/main/sharpness-contrast-intensities-mi-ie-maps.ipynb'>third notebook</a> I included  Melanin Index and Erythema Index ([1]). I believe we can use it as for image quality analysis and so for our future lesion classifier, either just by deriving features for deep net classifier or using as extra channels for CNN.
+
+
+[1]: <https://rdcu.be/c3IJD>

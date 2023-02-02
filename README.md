@@ -18,7 +18,9 @@ Also I compute full contrast and clipped contrast (to remove over/underexposed s
 In the <a href='https://github.com/alexey-ny/Desrmascopic-images-analysis/blob/main/sharpness-contrast-intensities-mi-ie-maps.ipynb'>third notebook</a> I included  Melanin Index and Erythema Index ([1]). I believe we can use it as for image quality analysis and so for our future lesion classifier, either just by deriving features for deep net classifier or using as extra channels for CNN.
 
 References:<br>
-Face Detection by Color and Multilayer Feedforward Neural Network by Chiunhsiun Lin (Proceedings of the 2005 IEEE International Conference on Information Acquisition - June 27 - July 3, 2005, Hong Kong and Macau, China)<br>
-Skin Detection - a Short Tutorial by Ahmed Elgammal, Crystal Muang and Dunxu Hu, Department of Computer Science, Rutgers University, Piscataway, NJ, 08902, USA<br>
+1) Face Detection by Color and Multilayer Feedforward Neural Network by Chiunhsiun Lin (Proceedings of the 2005 IEEE International Conference on Information Acquisition - June 27 - July 3, 2005, Hong Kong and Macau, China)<br>
+2) Skin Detection - a Short Tutorial by Ahmed Elgammal, Crystal Muang and Dunxu Hu, Department of Computer Science, Rutgers University, Piscataway, NJ, 08902, USA<br>
+3) Improving Dermoscopy Image Classification Using Color Constancy - Catarina Barata, M. Emre Celebi, Senior Member, IEEE, and Jorge S. Marques <br>
 [1]: <https://rdcu.be/c3IJD><br>
-[2]: <https://people.cs.rutgers.edu/~elgammal/pub/skin.pdf>
+[2]: <https://people.cs.rutgers.edu/~elgammal/pub/skin.pdf><br>
+[3]: <https://faculty.uca.edu/ecelebi/documents/JBHI_2015.pdf><br>

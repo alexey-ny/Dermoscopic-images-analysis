@@ -1,0 +1,581 @@
+image_name,patient_id,sex,age_approx,anatom_site_general_challenge,diagnosis,benign_malignant,target,width,height,source,ext,tfrecord
+ISIC_0000070,-1,male,25.0,anterior torso,melanoma,malignant,1,1022,767,UDA-1,jpg,15
+ISIC_0000076,-1,male,55.0,posterior torso,melanoma,malignant,1,1504,1129,UDA-1,jpg,15
+ISIC_0000144,-1,,,,melanoma,malignant,1,2048,1536,UDA-1,jpg,15
+ISIC_0000158,-1,female,30.0,upper extremity,melanoma,malignant,1,722,542,UDA-1,jpg,15
+ISIC_0000284,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,UDA-1,jpg,15
+ISIC_0000286,-1,male,50.0,head/neck,melanoma,malignant,1,1024,768,UDA-1,jpg,15
+ISIC_0000296,-1,female,50.0,posterior torso,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000304,-1,male,45.0,posterior torso,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000305,-1,female,80.0,lower extremity,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000308,-1,female,50.0,lower extremity,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000309,-1,male,65.0,anterior torso,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000312,-1,female,40.0,posterior torso,melanoma,malignant,1,767,576,UDA-1,jpg,15
+ISIC_0000394,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000398,-1,,,,melanoma,malignant,1,1242,1284,UDA-1,jpg,15
+ISIC_0000399,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000400,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000401,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000402,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000404,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000406,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000411,-1,,,,melanoma,malignant,1,2269,1965,UDA-1,jpg,15
+ISIC_0000414,-1,,,,melanoma,malignant,1,2048,1536,UDA-1,jpg,15
+ISIC_0000417,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000428,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000429,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000438,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000440,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000441,-1,,,,melanoma,malignant,1,2126,2185,UDA-1,jpg,15
+ISIC_0000446,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000450,-1,,,,melanoma,malignant,1,3072,2304,UDA-1,jpg,15
+ISIC_0000459,-1,,,anterior torso,melanoma,malignant,1,3008,2000,UDA-1,jpg,15
+ISIC_0000462,-1,,,posterior torso,melanoma,malignant,1,919,802,UDA-1,jpg,15
+ISIC_0000502,-1,,,upper extremity,melanoma,malignant,1,919,802,UDA-1,jpg,15
+ISIC_0000553,-1,,,,melanoma,malignant,1,824,719,UDA-1,jpg,15
+ISIC_0001101,-1,female,85.0,posterior torso,melanoma,malignant,1,2198,1603,UDA-2,jpg,15
+ISIC_0001108,-1,male,75.0,posterior torso,melanoma,malignant,1,3872,2592,UDA-2,jpg,15
+ISIC_0001110,-1,male,70.0,anterior torso,melanoma,malignant,1,3072,2304,UDA-2,jpg,15
+ISIC_0001112,-1,female,80.0,anterior torso,melanoma,malignant,1,3872,2592,UDA-2,jpg,15
+ISIC_0001116,-1,female,75.0,lower extremity,melanoma,malignant,1,3872,2592,UDA-2,jpg,15
+ISIC_0001120,-1,male,60.0,posterior torso,basal cell carcinoma,malignant,1,1936,1936,UDA-2,jpg,16
+ISIC_0001121,-1,male,85.0,lower extremity,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001124,-1,male,60.0,anterior torso,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001125,-1,male,80.0,lower extremity,melanoma,malignant,1,3872,2592,UDA-2,jpg,16
+ISIC_0001132,-1,male,50.0,head/neck,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001135,-1,female,60.0,upper extremity,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001137,-1,male,60.0,lower extremity,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001138,-1,male,65.0,head/neck,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001141,-1,female,70.0,upper extremity,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001143,-1,male,75.0,upper extremity,melanoma,malignant,1,3872,2592,UDA-2,jpg,16
+ISIC_0001149,-1,male,60.0,posterior torso,basal cell carcinoma,malignant,1,1936,1936,UDA-2,jpg,16
+ISIC_0001151,-1,female,60.0,upper extremity,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001154,-1,female,35.0,upper extremity,melanoma,malignant,1,3872,2592,UDA-2,jpg,16
+ISIC_0001157,-1,male,75.0,posterior torso,melanoma,malignant,1,3072,2304,UDA-2,jpg,16
+ISIC_0001159,-1,female,80.0,head/neck,basal cell carcinoma,malignant,1,1936,1936,UDA-2,jpg,16
+ISIC_0009886,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009890,-1,male,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009894,-1,male,30.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009908,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009913,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009916,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009984,-1,female,70.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0009989,-1,male,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010001,-1,female,60.0,anterior torso,,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010007,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010049,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010050,-1,male,55.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010106,-1,male,45.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010119,-1,male,70.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010120,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010122,-1,female,55.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010131,-1,male,25.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010137,-1,male,45.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010140,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010143,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010145,-1,female,55.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010148,-1,female,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010156,-1,female,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010162,-1,female,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,16
+ISIC_0010165,-1,female,85.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010181,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010208,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010209,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010210,-1,male,65.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010217,-1,male,60.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010242,-1,female,85.0,upper extremity,,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010266,-1,female,55.0,upper extremity,,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010271,-1,female,80.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010278,-1,female,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010280,-1,female,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010283,-1,male,85.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010289,-1,male,60.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010295,-1,female,35.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010299,-1,male,70.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010308,-1,female,80.0,lower extremity,,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010313,-1,female,45.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010359,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010366,-1,female,85.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010369,-1,male,50.0,upper extremity,,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010376,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010385,-1,male,55.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010391,-1,female,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010392,-1,male,75.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010393,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010394,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010396,-1,male,55.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010397,-1,female,50.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010398,-1,female,50.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010400,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010401,-1,female,50.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010402,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010407,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010410,-1,female,70.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010411,-1,male,80.0,posterior torso,,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010413,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010414,-1,male,80.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010415,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010416,-1,male,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,17
+ISIC_0010417,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010423,-1,female,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010426,-1,female,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010432,-1,male,80.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010469,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010470,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010478,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010485,-1,male,75.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010486,-1,male,75.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010495,-1,male,55.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010503,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010514,-1,female,40.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010516,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010527,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010532,-1,female,80.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010533,-1,female,50.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010534,-1,female,50.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010536,-1,female,45.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010537,-1,male,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010543,-1,female,75.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010546,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010548,-1,male,80.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010550,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010555,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010559,-1,male,60.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010564,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010579,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010580,-1,female,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010608,-1,male,45.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010609,-1,male,50.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010610,-1,female,50.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010629,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010630,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010631,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010644,-1,female,40.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010648,-1,female,50.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010652,-1,female,50.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010653,-1,female,25.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010655,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,18
+ISIC_0010663,-1,male,80.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010664,-1,male,85.0,upper extremity,,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010690,-1,female,50.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010714,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010719,-1,male,85.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010723,-1,male,80.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010728,-1,male,80.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010729,-1,male,75.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010730,-1,male,80.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010737,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010741,-1,female,45.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010746,-1,male,65.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010749,-1,male,80.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010750,-1,male,80.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010754,-1,male,80.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010757,-1,female,40.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010759,-1,male,45.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010764,-1,male,60.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010765,-1,male,60.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010766,-1,male,60.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010767,-1,male,55.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010770,-1,male,60.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010772,-1,male,55.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010777,-1,female,30.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010778,-1,female,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010783,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010784,-1,male,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010785,-1,female,75.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010789,-1,male,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010790,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010791,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010792,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010796,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010797,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010799,-1,female,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010803,-1,female,30.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010808,-1,male,60.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010809,-1,male,60.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010810,-1,female,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,19
+ISIC_0010812,-1,female,75.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010834,-1,male,55.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010855,-1,male,75.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010872,-1,male,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010876,-1,male,60.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010878,-1,male,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010883,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010890,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010898,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010900,-1,male,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010909,-1,male,40.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010912,-1,female,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010917,-1,female,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010923,-1,female,80.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010925,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010934,-1,female,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010938,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010942,-1,male,75.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010965,-1,female,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010971,-1,female,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010977,-1,female,60.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010979,-1,female,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010982,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0010995,-1,female,50.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011007,-1,female,55.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011012,-1,female,30.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011013,-1,male,40.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011030,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011031,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011032,-1,male,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011039,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011040,-1,male,65.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011043,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011044,-1,male,70.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011045,-1,male,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011052,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011056,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011057,-1,female,45.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011094,-1,male,80.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,20
+ISIC_0011122,-1,male,85.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011141,-1,male,75.0,posterior torso,basal cell carcinoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011142,-1,female,80.0,lower extremity,,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011174,-1,male,70.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011178,-1,male,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011181,-1,female,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011185,-1,female,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011187,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011193,-1,female,45.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011194,-1,female,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011196,-1,male,50.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011209,-1,female,55.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011222,-1,female,70.0,head/neck,basal cell carcinoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011238,-1,male,85.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011239,-1,male,75.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011247,-1,female,75.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011256,-1,male,45.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011260,-1,male,55.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011264,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011268,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011269,-1,male,85.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011270,-1,male,85.0,palms/soles,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011273,-1,female,85.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011276,-1,female,35.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011277,-1,female,85.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011285,-1,male,40.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011286,-1,male,50.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011288,-1,male,70.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011289,-1,male,75.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011308,-1,male,65.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011337,-1,male,70.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011340,-1,male,80.0,upper extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011364,-1,male,75.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011365,-1,male,80.0,anterior torso,,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011368,-1,male,75.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011369,-1,male,80.0,lower extremity,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011370,-1,male,65.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011371,-1,male,60.0,anterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011375,-1,male,80.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,21
+ISIC_0011381,-1,male,75.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,22
+ISIC_0011388,-1,male,55.0,head/neck,melanoma,malignant,1,1024,768,MSK-2,jpg,22
+ISIC_0011391,-1,male,65.0,palms/soles,melanoma,malignant,1,1024,768,MSK-2,jpg,22
+ISIC_0011396,-1,male,70.0,head/neck,,malignant,1,1024,768,MSK-2,jpg,22
+ISIC_0011399,-1,male,85.0,posterior torso,melanoma,malignant,1,1024,768,MSK-2,jpg,22
+ISIC_0011403,-1,female,55.0,lower extremity,basal cell carcinoma,malignant,1,6668,4439,MSK-1,jpg,22
+ISIC_0011404,-1,male,80.0,head/neck,melanoma,malignant,1,6648,4439,MSK-1,jpg,22
+ISIC_0011405,-1,male,65.0,head/neck,melanoma,malignant,1,6648,4439,MSK-1,jpg,22
+ISIC_0011428,-1,male,55.0,lower extremity,melanoma,malignant,1,6648,4419,MSK-1,jpg,22
+ISIC_0011429,-1,female,60.0,upper extremity,melanoma,malignant,1,6628,4399,MSK-1,jpg,22
+ISIC_0011430,-1,female,60.0,upper extremity,melanoma,malignant,1,6607,4399,MSK-1,jpg,22
+ISIC_0011434,-1,female,40.0,upper extremity,melanoma,malignant,1,6668,4479,MSK-1,jpg,22
+ISIC_0011435,-1,female,40.0,upper extremity,melanoma,malignant,1,6668,4459,MSK-1,jpg,22
+ISIC_0011436,-1,female,40.0,upper extremity,melanoma,malignant,1,6688,4419,MSK-1,jpg,22
+ISIC_0011437,-1,female,40.0,upper extremity,melanoma,malignant,1,6688,4439,MSK-1,jpg,22
+ISIC_0011438,-1,male,25.0,posterior torso,melanoma,malignant,1,6668,4379,MSK-1,jpg,22
+ISIC_0011439,-1,male,25.0,posterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,22
+ISIC_0011456,-1,female,85.0,upper extremity,basal cell carcinoma,malignant,1,6660,4440,MSK-1,jpg,22
+ISIC_0011458,-1,male,85.0,upper extremity,melanoma,malignant,1,6682,4422,MSK-1,jpg,22
+ISIC_0011459,-1,female,40.0,lower extremity,melanoma,malignant,1,6661,4441,MSK-1,jpg,22
+ISIC_0011460,-1,female,40.0,lower extremity,melanoma,malignant,1,6621,4401,MSK-1,jpg,22
+ISIC_0011463,-1,male,75.0,lower extremity,melanoma,malignant,1,6602,4402,MSK-1,jpg,22
+ISIC_0011471,-1,male,60.0,anterior torso,melanoma,malignant,1,6621,4422,MSK-1,jpg,22
+ISIC_0011473,-1,male,45.0,posterior torso,melanoma,malignant,1,6681,4441,MSK-1,jpg,22
+ISIC_0011474,-1,male,45.0,posterior torso,melanoma,malignant,1,6661,4441,MSK-1,jpg,22
+ISIC_0011480,-1,female,75.0,posterior torso,melanoma,malignant,1,6661,4499,MSK-1,jpg,22
+ISIC_0011481,-1,female,30.0,upper extremity,melanoma,malignant,1,6661,4499,MSK-1,jpg,22
+ISIC_0011482,-1,male,30.0,posterior torso,melanoma,malignant,1,6661,4499,MSK-1,jpg,22
+ISIC_0011483,-1,female,55.0,posterior torso,melanoma,malignant,1,6695,4467,MSK-1,jpg,22
+ISIC_0011484,-1,female,55.0,posterior torso,melanoma,malignant,1,6666,4422,MSK-1,jpg,22
+ISIC_0011485,-1,male,30.0,lower extremity,melanoma,malignant,1,6666,4422,MSK-1,jpg,22
+ISIC_0011486,-1,male,30.0,lower extremity,melanoma,malignant,1,6535,4390,MSK-1,jpg,22
+ISIC_0011487,-1,male,30.0,lower extremity,melanoma,malignant,1,6535,4390,MSK-1,jpg,22
+ISIC_0011488,-1,female,65.0,posterior torso,melanoma,malignant,1,6651,4391,MSK-1,jpg,22
+ISIC_0011489,-1,male,65.0,anterior torso,melanoma,malignant,1,6651,4391,MSK-1,jpg,22
+ISIC_0011490,-1,male,80.0,upper extremity,melanoma,malignant,1,6670,4452,MSK-1,jpg,22
+ISIC_0011491,-1,female,70.0,upper extremity,melanoma,malignant,1,6720,4461,MSK-1,jpg,22
+ISIC_0011492,-1,female,40.0,head/neck,melanoma,malignant,1,6681,4421,MSK-1,jpg,22
+ISIC_0011493,-1,male,75.0,upper extremity,melanoma,malignant,1,6622,4301,MSK-1,jpg,22
+ISIC_0011494,-1,male,50.0,posterior torso,melanoma,malignant,1,6650,4412,MSK-1,jpg,23
+ISIC_0011495,-1,female,50.0,lower extremity,melanoma,malignant,1,6661,4412,MSK-1,jpg,23
+ISIC_0011496,-1,female,75.0,posterior torso,melanoma,malignant,1,6661,4391,MSK-1,jpg,23
+ISIC_0011497,-1,male,45.0,posterior torso,melanoma,malignant,1,6661,4410,MSK-1,jpg,23
+ISIC_0011498,-1,male,45.0,posterior torso,melanoma,malignant,1,6741,4482,MSK-1,jpg,23
+ISIC_0011499,-1,male,55.0,,melanoma,malignant,1,6672,4401,MSK-1,jpg,23
+ISIC_0011500,-1,male,55.0,,melanoma,malignant,1,6670,4391,MSK-1,jpg,23
+ISIC_0011501,-1,male,55.0,,melanoma,malignant,1,6780,4480,MSK-1,jpg,23
+ISIC_0011502,-1,male,60.0,upper extremity,melanoma,malignant,1,6661,4412,MSK-1,jpg,23
+ISIC_0011503,-1,female,85.0,lower extremity,melanoma,malignant,1,6668,4419,MSK-1,jpg,23
+ISIC_0011504,-1,male,85.0,anterior torso,melanoma,malignant,1,6628,4399,MSK-1,jpg,23
+ISIC_0011505,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011506,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4419,MSK-1,jpg,23
+ISIC_0011507,-1,male,45.0,posterior torso,melanoma,malignant,1,6688,4459,MSK-1,jpg,23
+ISIC_0011508,-1,male,45.0,posterior torso,melanoma,malignant,1,6688,4459,MSK-1,jpg,23
+ISIC_0011509,-1,male,30.0,lower extremity,melanoma,malignant,1,6688,4459,MSK-1,jpg,23
+ISIC_0011510,-1,male,30.0,lower extremity,melanoma,malignant,1,6688,4459,MSK-1,jpg,23
+ISIC_0011511,-1,male,75.0,head/neck,melanoma,malignant,1,6648,4419,MSK-1,jpg,23
+ISIC_0011512,-1,female,85.0,lower extremity,melanoma,malignant,1,6688,4439,MSK-1,jpg,23
+ISIC_0011513,-1,female,85.0,lower extremity,melanoma,malignant,1,6708,4419,MSK-1,jpg,23
+ISIC_0011514,-1,female,55.0,posterior torso,melanoma,malignant,1,6608,4399,MSK-1,jpg,23
+ISIC_0011515,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011516,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011517,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011518,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011519,-1,male,65.0,anterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011520,-1,female,35.0,upper extremity,melanoma,malignant,1,6688,4439,MSK-1,jpg,23
+ISIC_0011521,-1,female,35.0,upper extremity,melanoma,malignant,1,6708,4439,MSK-1,jpg,23
+ISIC_0011524,-1,male,75.0,head/neck,melanoma,malignant,1,6641,4400,MSK-1,jpg,23
+ISIC_0011527,-1,male,75.0,head/neck,melanoma,malignant,1,6642,4482,MSK-1,jpg,23
+ISIC_0011528,-1,male,75.0,head/neck,melanoma,malignant,1,6621,4422,MSK-1,jpg,23
+ISIC_0011529,-1,male,75.0,head/neck,melanoma,malignant,1,6622,4422,MSK-1,jpg,23
+ISIC_0011530,-1,male,75.0,head/neck,melanoma,malignant,1,6622,4441,MSK-1,jpg,23
+ISIC_0011531,-1,male,75.0,head/neck,melanoma,malignant,1,6621,4422,MSK-1,jpg,23
+ISIC_0011532,-1,male,75.0,head/neck,melanoma,malignant,1,6622,4402,MSK-1,jpg,23
+ISIC_0011534,-1,male,80.0,upper extremity,melanoma,malignant,1,6688,4499,MSK-1,jpg,23
+ISIC_0011535,-1,male,75.0,lower extremity,basal cell carcinoma,malignant,1,6668,4419,MSK-1,jpg,23
+ISIC_0011536,-1,male,75.0,lower extremity,basal cell carcinoma,malignant,1,6668,4439,MSK-1,jpg,23
+ISIC_0011560,-1,female,70.0,upper extremity,melanoma,malignant,1,6620,4441,MSK-1,jpg,23
+ISIC_0011579,-1,female,40.0,posterior torso,melanoma,malignant,1,6648,4439,MSK-1,jpg,24
+ISIC_0011589,-1,male,15.0,upper extremity,melanoma,malignant,1,6668,4439,MSK-1,jpg,24
+ISIC_0011590,-1,male,15.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,24
+ISIC_0011591,-1,male,15.0,upper extremity,melanoma,malignant,1,6668,4419,MSK-1,jpg,24
+ISIC_0011593,-1,female,70.0,lower extremity,squamous cell carcinoma,malignant,1,6668,4399,MSK-1,jpg,24
+ISIC_0011594,-1,female,85.0,upper extremity,melanoma,malignant,1,6648,4459,MSK-1,jpg,24
+ISIC_0011598,-1,male,50.0,lower extremity,,malignant,1,6668,4459,MSK-1,jpg,24
+ISIC_0011610,-1,male,70.0,head/neck,melanoma,malignant,1,6628,4419,MSK-1,jpg,24
+ISIC_0011613,-1,female,55.0,posterior torso,melanoma,malignant,1,6648,4459,MSK-1,jpg,24
+ISIC_0011614,-1,female,55.0,posterior torso,melanoma,malignant,1,6668,4459,MSK-1,jpg,24
+ISIC_0011615,-1,female,55.0,posterior torso,melanoma,malignant,1,6648,4439,MSK-1,jpg,24
+ISIC_0011616,-1,female,55.0,posterior torso,melanoma,malignant,1,6648,4459,MSK-1,jpg,24
+ISIC_0011617,-1,female,55.0,posterior torso,melanoma,malignant,1,6648,4459,MSK-1,jpg,24
+ISIC_0011618,-1,female,85.0,head/neck,melanoma,malignant,1,5985,4439,MSK-1,jpg,24
+ISIC_0011626,-1,male,70.0,posterior torso,basal cell carcinoma,malignant,1,6648,4439,MSK-1,jpg,24
+ISIC_0011627,-1,male,70.0,posterior torso,basal cell carcinoma,malignant,1,6648,4419,MSK-1,jpg,24
+ISIC_0011628,-1,male,85.0,head/neck,melanoma,malignant,1,6648,4439,MSK-1,jpg,24
+ISIC_0011642,-1,male,85.0,posterior torso,basal cell carcinoma,malignant,1,6668,4439,MSK-1,jpg,24
+ISIC_0011645,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6648,4419,MSK-1,jpg,24
+ISIC_0011646,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6648,4419,MSK-1,jpg,24
+ISIC_0011648,-1,male,55.0,upper extremity,basal cell carcinoma,malignant,1,6688,4439,MSK-1,jpg,24
+ISIC_0011649,-1,,85.0,lower extremity,melanoma,malignant,1,6628,4439,MSK-1,jpg,24
+ISIC_0011659,-1,male,60.0,lateral torso,melanoma,malignant,1,6668,4479,MSK-1,jpg,24
+ISIC_0011684,-1,female,65.0,lower extremity,melanoma,malignant,1,6668,4439,MSK-1,jpg,24
+ISIC_0011691,-1,male,50.0,upper extremity,melanoma,malignant,1,6630,4411,MSK-1,jpg,24
+ISIC_0011692,-1,female,35.0,posterior torso,melanoma,malignant,1,6668,4439,MSK-1,jpg,24
+ISIC_0011693,-1,female,35.0,posterior torso,melanoma,malignant,1,6648,4479,MSK-1,jpg,24
+ISIC_0011694,-1,female,35.0,posterior torso,melanoma,malignant,1,6610,4422,MSK-1,jpg,24
+ISIC_0011695,-1,female,35.0,posterior torso,melanoma,malignant,1,6610,4412,MSK-1,jpg,24
+ISIC_0011696,-1,female,35.0,posterior torso,melanoma,malignant,1,6648,4419,MSK-1,jpg,24
+ISIC_0011697,-1,female,35.0,posterior torso,melanoma,malignant,1,6621,4430,MSK-1,jpg,24
+ISIC_0011698,-1,female,35.0,posterior torso,melanoma,malignant,1,6601,4421,MSK-1,jpg,24
+ISIC_0011699,-1,female,35.0,posterior torso,melanoma,malignant,1,6601,4412,MSK-1,jpg,24
+ISIC_0011700,-1,female,35.0,posterior torso,melanoma,malignant,1,6628,4419,MSK-1,jpg,24
+ISIC_0011701,-1,female,35.0,posterior torso,melanoma,malignant,1,6628,4419,MSK-1,jpg,24
+ISIC_0011702,-1,female,35.0,posterior torso,melanoma,malignant,1,6628,4419,MSK-1,jpg,24
+ISIC_0011703,-1,female,35.0,posterior torso,melanoma,malignant,1,6628,4439,MSK-1,jpg,24
+ISIC_0011704,-1,female,35.0,posterior torso,melanoma,malignant,1,6628,4419,MSK-1,jpg,24
+ISIC_0011709,-1,male,50.0,head/neck,melanoma,malignant,1,6608,4419,MSK-1,jpg,24
+ISIC_0011710,-1,male,50.0,head/neck,melanoma,malignant,1,6608,4399,MSK-1,jpg,25
+ISIC_0011711,-1,female,25.0,anterior torso,melanoma,malignant,1,5262,4459,MSK-1,jpg,25
+ISIC_0011726,-1,male,80.0,lower extremity,squamous cell carcinoma,malignant,1,6668,4419,MSK-1,jpg,25
+ISIC_0011728,-1,male,65.0,anterior torso,melanoma,malignant,1,6628,4439,MSK-1,jpg,25
+ISIC_0011729,-1,male,65.0,posterior torso,melanoma,malignant,1,6688,4419,MSK-1,jpg,25
+ISIC_0011730,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6668,4419,MSK-1,jpg,25
+ISIC_0011733,-1,female,65.0,upper extremity,basal cell carcinoma,malignant,1,6648,4419,MSK-1,jpg,25
+ISIC_0011736,-1,male,60.0,anterior torso,melanoma,malignant,1,6661,4441,MSK-1,jpg,25
+ISIC_0011743,-1,female,65.0,lower extremity,melanoma,malignant,1,6661,4420,MSK-1,jpg,25
+ISIC_0011744,-1,female,65.0,lower extremity,melanoma,malignant,1,6680,4441,MSK-1,jpg,25
+ISIC_0011747,-1,male,85.0,head/neck,,malignant,1,6621,4422,MSK-1,jpg,25
+ISIC_0011750,-1,female,80.0,upper extremity,squamous cell carcinoma,malignant,1,6641,4421,MSK-1,jpg,25
+ISIC_0011751,-1,female,80.0,upper extremity,squamous cell carcinoma,malignant,1,6641,4391,MSK-1,jpg,25
+ISIC_0011752,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6671,4391,MSK-1,jpg,25
+ISIC_0011753,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6662,4381,MSK-1,jpg,25
+ISIC_0011757,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6621,4422,MSK-1,jpg,25
+ISIC_0011758,-1,male,70.0,anterior torso,melanoma,malignant,1,6621,4420,MSK-1,jpg,25
+ISIC_0011759,-1,male,70.0,anterior torso,melanoma,malignant,1,6621,4421,MSK-1,jpg,25
+ISIC_0011764,-1,male,50.0,lower extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,25
+ISIC_0011770,-1,male,65.0,head/neck,,malignant,1,6688,4439,MSK-1,jpg,25
+ISIC_0011771,-1,male,65.0,head/neck,,malignant,1,6688,4419,MSK-1,jpg,25
+ISIC_0011772,-1,male,65.0,head/neck,,malignant,1,6668,4439,MSK-1,jpg,25
+ISIC_0011773,-1,male,65.0,head/neck,,malignant,1,6668,4439,MSK-1,jpg,25
+ISIC_0011774,-1,male,65.0,head/neck,,malignant,1,6688,4519,MSK-1,jpg,25
+ISIC_0011778,-1,male,65.0,head/neck,melanoma,malignant,1,6621,4361,MSK-1,jpg,25
+ISIC_0011780,-1,male,30.0,upper extremity,melanoma,malignant,1,6621,4441,MSK-1,jpg,25
+ISIC_0011782,-1,male,60.0,lateral torso,melanoma,malignant,1,6682,4420,MSK-1,jpg,25
+ISIC_0011790,-1,male,85.0,head/neck,,malignant,1,6608,4359,MSK-1,jpg,25
+ISIC_0011794,-1,male,70.0,posterior torso,melanoma,malignant,1,6628,4439,MSK-1,jpg,25
+ISIC_0011797,-1,female,85.0,lower extremity,melanoma,malignant,1,6628,4459,MSK-1,jpg,25
+ISIC_0011798,-1,female,85.0,lower extremity,melanoma,malignant,1,6628,4459,MSK-1,jpg,25
+ISIC_0011799,-1,female,85.0,lower extremity,melanoma,malignant,1,6688,4499,MSK-1,jpg,25
+ISIC_0011802,-1,female,85.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,25
+ISIC_0011807,-1,male,30.0,lower extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,25
+ISIC_0011808,-1,male,30.0,lower extremity,melanoma,malignant,1,6628,4439,MSK-1,jpg,25
+ISIC_0011810,-1,female,70.0,head/neck,basal cell carcinoma,malignant,1,6648,4419,MSK-1,jpg,25
+ISIC_0011811,-1,male,55.0,posterior torso,melanoma,malignant,1,6602,4401,MSK-1,jpg,25
+ISIC_0011812,-1,male,55.0,posterior torso,melanoma,malignant,1,6602,4361,MSK-1,jpg,25
+ISIC_0011829,-1,,85.0,,,malignant,1,6641,4401,MSK-1,jpg,25
+ISIC_0011845,-1,male,70.0,posterior torso,melanoma,malignant,1,6621,4440,MSK-1,jpg,26
+ISIC_0011846,-1,male,70.0,posterior torso,melanoma,malignant,1,6621,4421,MSK-1,jpg,26
+ISIC_0011848,-1,male,70.0,upper extremity,basal cell carcinoma,malignant,1,6641,4422,MSK-1,jpg,26
+ISIC_0011857,-1,female,45.0,posterior torso,melanoma,malignant,1,6621,4441,MSK-1,jpg,26
+ISIC_0011858,-1,female,45.0,posterior torso,melanoma,malignant,1,6602,4441,MSK-1,jpg,26
+ISIC_0011862,-1,female,45.0,lower extremity,melanoma,malignant,1,6682,4442,MSK-1,jpg,26
+ISIC_0011863,-1,female,45.0,lower extremity,melanoma,malignant,1,6662,4402,MSK-1,jpg,26
+ISIC_0011868,-1,male,65.0,head/neck,basal cell carcinoma,malignant,1,6648,4459,MSK-1,jpg,26
+ISIC_0011869,-1,male,85.0,upper extremity,basal cell carcinoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011870,-1,female,65.0,anterior torso,melanoma,malignant,1,6608,4399,MSK-1,jpg,26
+ISIC_0011872,-1,female,40.0,lower extremity,melanoma,malignant,1,6668,4479,MSK-1,jpg,26
+ISIC_0011873,-1,female,40.0,lower extremity,melanoma,malignant,1,6668,4479,MSK-1,jpg,26
+ISIC_0011874,-1,female,40.0,lower extremity,melanoma,malignant,1,6668,4479,MSK-1,jpg,26
+ISIC_0011875,-1,female,40.0,lower extremity,melanoma,malignant,1,6627,4459,MSK-1,jpg,26
+ISIC_0011876,-1,female,40.0,lower extremity,melanoma,malignant,1,6668,4499,MSK-1,jpg,26
+ISIC_0011877,-1,female,40.0,lower extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011878,-1,female,40.0,lower extremity,melanoma,malignant,1,6628,4439,MSK-1,jpg,26
+ISIC_0011879,-1,female,40.0,lower extremity,melanoma,malignant,1,6647,4459,MSK-1,jpg,26
+ISIC_0011892,-1,female,55.0,lower extremity,melanoma,malignant,1,6642,4422,MSK-1,jpg,26
+ISIC_0011894,-1,male,45.0,head/neck,basal cell carcinoma,malignant,1,6582,4381,MSK-1,jpg,26
+ISIC_0011895,-1,female,50.0,upper extremity,melanoma,malignant,1,6621,4440,MSK-1,jpg,26
+ISIC_0011898,-1,female,85.0,head/neck,melanoma,malignant,1,6581,4382,MSK-1,jpg,26
+ISIC_0011904,-1,female,85.0,lower extremity,melanoma,malignant,1,6681,4421,MSK-1,jpg,26
+ISIC_0011921,-1,male,65.0,anterior torso,melanoma,malignant,1,6628,4439,MSK-1,jpg,26
+ISIC_0011922,-1,male,65.0,anterior torso,melanoma,malignant,1,6648,4459,MSK-1,jpg,26
+ISIC_0011923,-1,male,50.0,upper extremity,melanoma,malignant,1,6668,4459,MSK-1,jpg,26
+ISIC_0011929,-1,male,65.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011930,-1,male,70.0,upper extremity,melanoma,malignant,1,6668,4439,MSK-1,jpg,26
+ISIC_0011931,-1,male,70.0,upper extremity,melanoma,malignant,1,6648,4459,MSK-1,jpg,26
+ISIC_0011933,-1,male,65.0,posterior torso,melanoma,malignant,1,6628,4439,MSK-1,jpg,26
+ISIC_0011935,-1,,85.0,lower extremity,,malignant,1,6648,4419,MSK-1,jpg,26
+ISIC_0011947,-1,male,65.0,upper extremity,melanoma,malignant,1,6648,4399,MSK-1,jpg,26
+ISIC_0011948,-1,male,65.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011949,-1,male,65.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011950,-1,male,65.0,upper extremity,melanoma,malignant,1,6648,4439,MSK-1,jpg,26
+ISIC_0011951,-1,male,65.0,upper extremity,melanoma,malignant,1,6668,4439,MSK-1,jpg,26
+ISIC_0011957,-1,female,50.0,head/neck,melanoma,malignant,1,6628,4439,MSK-1,jpg,26
+ISIC_0011958,-1,female,50.0,head/neck,melanoma,malignant,1,6628,4439,MSK-1,jpg,26
+ISIC_0011975,-1,female,85.0,lower extremity,melanoma,malignant,1,6661,4401,MSK-1,jpg,26
+ISIC_0011987,-1,male,85.0,posterior torso,melanoma,malignant,1,6628,4399,MSK-1,jpg,27
+ISIC_0011996,-1,female,70.0,posterior torso,melanoma,malignant,1,6628,4379,MSK-1,jpg,27
+ISIC_0011998,-1,male,85.0,posterior torso,melanoma,malignant,1,6608,4419,MSK-1,jpg,27
+ISIC_0012000,-1,female,60.0,anterior torso,melanoma,malignant,1,6602,4361,MSK-1,jpg,27
+ISIC_0012025,-1,male,80.0,lower extremity,basal cell carcinoma,malignant,1,6682,4401,MSK-1,jpg,27
+ISIC_0012040,-1,male,70.0,head/neck,basal cell carcinoma,malignant,1,6601,4380,MSK-1,jpg,27
+ISIC_0012044,-1,female,55.0,posterior torso,melanoma,malignant,1,6601,4401,MSK-1,jpg,27
+ISIC_0012047,-1,male,40.0,upper extremity,melanoma,malignant,1,6661,4422,MSK-1,jpg,27
+ISIC_0012048,-1,female,40.0,upper extremity,melanoma,malignant,1,6642,4422,MSK-1,jpg,27
+ISIC_0012049,-1,male,45.0,anterior torso,melanoma,malignant,1,6642,4402,MSK-1,jpg,27
+ISIC_0012054,-1,male,85.0,upper extremity,basal cell carcinoma,malignant,1,6681,4401,MSK-1,jpg,27
+ISIC_0012055,-1,male,85.0,upper extremity,basal cell carcinoma,malignant,1,6682,4420,MSK-1,jpg,27
+ISIC_0012057,-1,female,85.0,lower extremity,basal cell carcinoma,malignant,1,6662,4401,MSK-1,jpg,27
+ISIC_0012063,-1,,85.0,lower extremity,melanoma,malignant,1,6622,4441,MSK-1,jpg,27
+ISIC_0012064,-1,,85.0,lower extremity,melanoma,malignant,1,6642,4440,MSK-1,jpg,27
+ISIC_0012065,-1,,85.0,lower extremity,melanoma,malignant,1,6641,4441,MSK-1,jpg,27
+ISIC_0012066,-1,,85.0,lower extremity,melanoma,malignant,1,6641,4461,MSK-1,jpg,27
+ISIC_0012067,-1,,85.0,lower extremity,melanoma,malignant,1,6641,4441,MSK-1,jpg,27
+ISIC_0012068,-1,,85.0,lower extremity,melanoma,malignant,1,6641,4461,MSK-1,jpg,27
+ISIC_0012069,-1,,85.0,lower extremity,melanoma,malignant,1,6642,4441,MSK-1,jpg,27
+ISIC_0012070,-1,male,85.0,anterior torso,basal cell carcinoma,malignant,1,6682,4420,MSK-1,jpg,27
+ISIC_0012074,-1,male,75.0,upper extremity,,malignant,1,6620,4401,MSK-1,jpg,27
+ISIC_0012075,-1,female,65.0,head/neck,basal cell carcinoma,malignant,1,6681,4441,MSK-1,jpg,27
+ISIC_0012079,-1,male,85.0,lower extremity,squamous cell carcinoma,malignant,1,6668,4419,MSK-1,jpg,27
+ISIC_0012081,-1,female,15.0,posterior torso,melanoma,malignant,1,5220,4442,MSK-1,jpg,27
+ISIC_0012082,-1,female,15.0,posterior torso,melanoma,malignant,1,6600,4440,MSK-1,jpg,27
+ISIC_0012083,-1,male,60.0,head/neck,melanoma,malignant,1,6641,4422,MSK-1,jpg,27
+ISIC_0024207,-1,female,25.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024208,-1,male,80.0,,basal cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024212,-1,male,85.0,,squamous cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024213,-1,male,60.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024214,-1,male,60.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024215,-1,male,60.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024216,-1,male,75.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024217,-1,male,65.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024218,-1,male,65.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024219,-1,male,85.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024220,-1,female,80.0,,melanoma,malignant,1,2830,1630,2018 JID Editorial Images,jpg,27
+ISIC_0024221,-1,female,70.0,,basal cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,27
+ISIC_0024222,-1,female,70.0,,melanoma,malignant,1,3024,2016,2018 JID Editorial Images,jpg,28
+ISIC_0024223,-1,female,65.0,,squamous cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024224,-1,male,50.0,,basal cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024226,-1,male,60.0,,melanoma,malignant,1,1488,2240,2018 JID Editorial Images,jpg,28
+ISIC_0024227,-1,male,85.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024228,-1,male,85.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024229,-1,male,70.0,,melanoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024232,-1,female,55.0,,basal cell carcinoma,malignant,1,1488,2240,2018 JID Editorial Images,jpg,28
+ISIC_0024233,-1,male,60.0,,basal cell carcinoma,malignant,1,3024,2016,2018 JID Editorial Images,jpg,28
+ISIC_0024235,-1,female,70.0,,basal cell carcinoma,malignant,1,2240,1488,2018 JID Editorial Images,jpg,28
+ISIC_0024236,-1,male,65.0,,melanoma,malignant,1,3024,2016,2018 JID Editorial Images,jpg,28
+ISIC_0024237,-1,male,80.0,,squamous cell carcinoma,malignant,1,2000,3008,2018 JID Editorial Images,jpg,28
+ISIC_0024238,-1,female,85.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024239,-1,male,85.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024240,-1,female,80.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024241,-1,male,65.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024244,-1,female,85.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024246,-1,female,50.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024247,-1,female,50.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024249,-1,male,70.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024250,-1,female,85.0,,basal cell carcinoma,malignant,1,1788,1713,2018 JID Editorial Images,jpg,28
+ISIC_0024251,-1,female,85.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024252,-1,male,30.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024253,-1,female,40.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024254,-1,female,70.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024255,-1,male,65.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024256,-1,male,65.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024257,-1,male,65.0,,basal cell carcinoma,malignant,1,1022,686,2018 JID Editorial Images,jpg,28
+ISIC_0024258,-1,male,45.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024259,-1,male,75.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024260,-1,male,55.0,,basal cell carcinoma,malignant,1,2880,1800,2018 JID Editorial Images,png,28
+ISIC_0024261,-1,male,85.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024263,-1,male,45.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024264,-1,male,85.0,,melanoma,malignant,1,2524,1803,2018 JID Editorial Images,jpg,28
+ISIC_0024265,-1,female,60.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024266,-1,male,70.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024267,-1,female,50.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024268,-1,female,45.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,28
+ISIC_0024269,-1,female,75.0,,basal cell carcinoma,malignant,1,2120,1412,2018 JID Editorial Images,png,28
+ISIC_0024270,-1,female,50.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024271,-1,male,55.0,,basal cell carcinoma,malignant,1,1416,1349,2018 JID Editorial Images,jpg,29
+ISIC_0024273,-1,male,70.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024274,-1,female,55.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024275,-1,male,65.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024276,-1,male,40.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024277,-1,male,75.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024279,-1,female,35.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024281,-1,male,85.0,,basal cell carcinoma,malignant,1,2056,1372,2018 JID Editorial Images,png,29
+ISIC_0024282,-1,male,85.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024283,-1,male,85.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024284,-1,male,75.0,,melanoma,malignant,1,713,547,2018 JID Editorial Images,jpg,29
+ISIC_0024285,-1,male,75.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024286,-1,male,85.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024287,-1,male,85.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024288,-1,male,60.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024289,-1,male,55.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024290,-1,female,80.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024291,-1,male,75.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024292,-1,male,75.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024293,-1,male,75.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024294,-1,male,30.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024295,-1,male,30.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024296,-1,female,85.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024297,-1,male,85.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024298,-1,male,40.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024299,-1,female,80.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024300,-1,female,55.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024301,-1,female,55.0,,basal cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024302,-1,female,25.0,,melanoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024303,-1,male,60.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024304,-1,male,70.0,,squamous cell carcinoma,malignant,1,3008,2000,2018 JID Editorial Images,jpg,29
+ISIC_0024305,-1,male,85.0,,squamous cell carcinoma,malignant,1,4288,2848,2018 JID Editorial Images,jpg,29
+ISIC_0036065,-1,male,80.0,,melanoma,malignant,1,2880,1800,2018 JID Editorial Images,png,29

@@ -48,7 +48,7 @@ params = {
     'EFF_NETS' :    [8] * n_folds,
     'BATCH_SIZES' : [64] * n_folds,
     # 'BATCH_SIZES' : [128] * n_folds,
-    'EPOCHS' : [10] * n_folds,
+    'EPOCHS' : [1] * n_folds,
     # number of times to duplicate the malignant samples, to use with augmentation to balance the classes
     'MAL_UPSAMPLE' : 5, 
     # test time augmentation steps
@@ -308,7 +308,11 @@ def _read(path, desired_size, color_space = 'RGB', toAugment = False, drop_lumin
 # def _read(path, desired_size, to_HSV = False, toAugment = False):
     """Will be used in DataGenerator"""
     img_BGR = cv2.imread(path)
-    n_ch = desired_size[2]
+    # to compensate for reduced number of channels passed in the image size        
+    if drop_luminosity:
+        n_ch = desired_size[2] + 1
+    else:
+        n_ch = desired_size[2]
     if img_BGR is None:
         main_logger.warning('Error load image:', path)
     
@@ -327,6 +331,7 @@ def _read(path, desired_size, color_space = 'RGB', toAugment = False, drop_lumin
             img_exp  = img_exp[:, :, 1:]
     else:           
         img_exp = img_BGR.copy()
+
     # changed the order of EI and MI in version 24, 
     # now EI will be used in 4 channels model instead of MI
     if n_ch > 3:
@@ -398,8 +403,7 @@ class DataGenerator(keras.utils.Sequence):
             # ID is a filename
             for i, ID in enumerate(list_IDs_temp):
                 X[i,] = _read(self.img_dir+ID+".jpg", self.img_size, self.color_space, toAugment = True, drop_luminosity = self.drop_luminosity)
-                Y[i,] = self.labels.loc[idxs[i]]
-        
+                Y[i,] = self.labels.loc[idxs[i]]       
             return X, Y
 
         elif self.testAugment: # test phase with Augmentation
@@ -496,7 +500,7 @@ for fold, (idxT, idxV) in enumerate(skf.split(train_IP_set)):
     
         # SAVE BEST MODEL EACH FOLD
         sv = tf.keras.callbacks.ModelCheckpoint(
-            f'fold_{fold}-{ch}.h5', monitor='val_loss', verbose=1, save_best_only=True,
+            f'fold_{fold}-{cur_num_channels}.h5', monitor='val_loss', verbose=1, save_best_only=True,
             save_weights_only=True, mode='min', save_freq='epoch')    
     
         history = models[ch].fit(
@@ -506,8 +510,8 @@ for fold, (idxT, idxV) in enumerate(skf.split(train_IP_set)):
             validation_data = val_gen,
             verbose = VERBOSE
         )
-        print_log(f'Loading best model for fold {fold+1} with {ch} channels', [main_logger])
-        models[ch].load_weights(f'fold_{fold}-{ch}.h5') 
+        print_log(f'Loading best model for fold {fold+1} with {cur_num_channels} channels', [main_logger])
+        models[ch].load_weights(f'fold_{fold}-{cur_num_channels}.h5') 
     
         # PREDICT TEST USING TTA
         print_log('Predicting Test without TTA...', [main_logger])
@@ -522,7 +526,7 @@ for fold, (idxT, idxV) in enumerate(skf.split(train_IP_set)):
         # REPORT RESULTS
         auc = roc_auc_score(y_test_set, val_pred[ch])
         oof_aucs[ch].append(auc)
-        print_log(f'#### Fold {fold+1}, {ch} channels OOF AUC without TTA = {auc:.4f}', [main_logger, res_logger])
+        print_log(f'#### Fold {fold+1}, {cur_num_channels} channels OOF AUC without TTA = {auc:.4f}', [main_logger, res_logger])
 
 print_log('\n'+'-'*80)
 for ch in range(3, params['N_CHANNELS'] + 1):

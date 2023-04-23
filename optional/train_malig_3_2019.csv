@@ -1,37 +1,37 @@
 image_name,patient_id,sex,age_approx,anatom_site_general_challenge,diagnosis,benign_malignant,target,tfrecord,width,height
 ISIC_0000002,-1,female,60.0,upper extremity,MEL,malignant,1,30,1022,767
 ISIC_0000013,-1,female,30.0,posterior torso,MEL,malignant,1,50,1022,767
-ISIC_0000022,-1,female,55.0,lower extremity,MEL,malignant,1,44,1024,768
-ISIC_0000026,-1,female,30.0,lower extremity,MEL,malignant,1,44,1024,768
-ISIC_0000029,-1,female,45.0,posterior torso,MEL,malignant,1,42,1024,768
-ISIC_0000030,-1,female,55.0,lower extremity,MEL,malignant,1,52,1024,769
-ISIC_0000031,-1,male,70.0,upper extremity,MEL,malignant,1,30,1024,768
-ISIC_0000035,-1,female,25.0,lower extremity,MEL,malignant,1,46,1024,768
-ISIC_0000040,-1,female,65.0,lower extremity,MEL,malignant,1,46,1024,768
-ISIC_0000043,-1,male,35.0,lower extremity,MEL,malignant,1,50,1024,768
-ISIC_0000046,-1,female,60.0,upper extremity,MEL,malignant,1,48,1024,768
-ISIC_0000049,-1,female,80.0,posterior torso,MEL,malignant,1,46,1024,768
-ISIC_0000054,-1,female,25.0,lower extremity,MEL,malignant,1,48,1024,768
-ISIC_0000056,-1,female,55.0,lower extremity,MEL,malignant,1,42,1024,768
+ISIC_0000022_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,44,1024,768
+ISIC_0000026_downsampled,-1,female,30.0,lower extremity,MEL,malignant,1,44,1024,768
+ISIC_0000029_downsampled,-1,female,45.0,posterior torso,MEL,malignant,1,42,1024,768
+ISIC_0000030_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,52,1024,769
+ISIC_0000031_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,30,1024,768
+ISIC_0000035_downsampled,-1,female,25.0,lower extremity,MEL,malignant,1,46,1024,768
+ISIC_0000040_downsampled,-1,female,65.0,lower extremity,MEL,malignant,1,46,1024,768
+ISIC_0000043_downsampled,-1,male,35.0,lower extremity,MEL,malignant,1,50,1024,768
+ISIC_0000046_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,48,1024,768
+ISIC_0000049_downsampled,-1,female,80.0,posterior torso,MEL,malignant,1,46,1024,768
+ISIC_0000054_downsampled,-1,female,25.0,lower extremity,MEL,malignant,1,48,1024,768
+ISIC_0000056_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,42,1024,768
 ISIC_0000074,-1,male,25.0,lower extremity,MEL,malignant,1,30,1022,767
-ISIC_0000077,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,768
-ISIC_0000078,-1,male,85.0,anterior torso,MEL,malignant,1,48,1024,768
-ISIC_0000139,-1,unknown,,,MEL,malignant,1,54,1024,768
-ISIC_0000141,-1,unknown,,,MEL,malignant,1,46,1024,768
-ISIC_0000142,-1,unknown,,,MEL,malignant,1,34,1024,768
-ISIC_0000143,-1,unknown,,,MEL,malignant,1,32,1024,768
-ISIC_0000145,-1,unknown,,,MEL,malignant,1,56,1024,768
-ISIC_0000146,-1,unknown,,,MEL,malignant,1,46,1024,768
-ISIC_0000147,-1,unknown,,,MEL,malignant,1,38,1024,768
-ISIC_0000148,-1,unknown,,,MEL,malignant,1,42,1024,768
-ISIC_0000149,-1,unknown,,,MEL,malignant,1,42,1024,768
-ISIC_0000150,-1,unknown,,,MEL,malignant,1,52,1024,768
-ISIC_0000151,-1,unknown,,,MEL,malignant,1,44,1024,768
-ISIC_0000152,-1,unknown,,,MEL,malignant,1,56,1024,768
-ISIC_0000153,-1,unknown,,,MEL,malignant,1,32,1024,768
-ISIC_0000154,-1,unknown,,,MEL,malignant,1,52,1024,768
-ISIC_0000155,-1,unknown,,,MEL,malignant,1,56,1024,768
-ISIC_0000156,-1,unknown,,,MEL,malignant,1,32,1024,768
+ISIC_0000077_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,768
+ISIC_0000078_downsampled,-1,male,85.0,anterior torso,MEL,malignant,1,48,1024,768
+ISIC_0000139_downsampled,-1,unknown,,,MEL,malignant,1,54,1024,768
+ISIC_0000141_downsampled,-1,unknown,,,MEL,malignant,1,46,1024,768
+ISIC_0000142_downsampled,-1,unknown,,,MEL,malignant,1,34,1024,768
+ISIC_0000143_downsampled,-1,unknown,,,MEL,malignant,1,32,1024,768
+ISIC_0000145_downsampled,-1,unknown,,,MEL,malignant,1,56,1024,768
+ISIC_0000146_downsampled,-1,unknown,,,MEL,malignant,1,46,1024,768
+ISIC_0000147_downsampled,-1,unknown,,,MEL,malignant,1,38,1024,768
+ISIC_0000148_downsampled,-1,unknown,,,MEL,malignant,1,42,1024,768
+ISIC_0000149_downsampled,-1,unknown,,,MEL,malignant,1,42,1024,768
+ISIC_0000150_downsampled,-1,unknown,,,MEL,malignant,1,52,1024,768
+ISIC_0000151_downsampled,-1,unknown,,,MEL,malignant,1,44,1024,768
+ISIC_0000152_downsampled,-1,unknown,,,MEL,malignant,1,56,1024,768
+ISIC_0000153_downsampled,-1,unknown,,,MEL,malignant,1,32,1024,768
+ISIC_0000154_downsampled,-1,unknown,,,MEL,malignant,1,52,1024,768
+ISIC_0000155_downsampled,-1,unknown,,,MEL,malignant,1,56,1024,768
+ISIC_0000156_downsampled,-1,unknown,,,MEL,malignant,1,32,1024,768
 ISIC_0000157,-1,male,60.0,upper extremity,MEL,malignant,1,52,963,629
 ISIC_0000159,-1,female,15.0,upper extremity,MEL,malignant,1,38,965,724
 ISIC_0000160,-1,male,55.0,lateral torso,MEL,malignant,1,42,722,540
@@ -49,7 +49,7 @@ ISIC_0000172,-1,female,35.0,posterior torso,MEL,malignant,1,42,962,674
 ISIC_0000173,-1,male,65.0,upper extremity,MEL,malignant,1,38,722,545
 ISIC_0000174,-1,female,50.0,upper extremity,MEL,malignant,1,42,960,724
 ISIC_0000175,-1,female,35.0,upper extremity,MEL,malignant,1,42,966,638
-ISIC_0000176,-1,female,40.0,lower extremity,MEL,malignant,1,50,857,1024
+ISIC_0000176_downsampled,-1,female,40.0,lower extremity,MEL,malignant,1,50,857,1024
 ISIC_0000278,-1,female,75.0,head/neck,MEL,malignant,1,52,1024,768
 ISIC_0000279,-1,male,80.0,lower extremity,MEL,malignant,1,40,1024,768
 ISIC_0000285,-1,male,60.0,lateral torso,MEL,malignant,1,56,1024,768
@@ -72,18 +72,18 @@ ISIC_0000310,-1,female,85.0,lower extremity,MEL,malignant,1,30,767,576
 ISIC_0000311,-1,female,60.0,lower extremity,MEL,malignant,1,44,767,576
 ISIC_0000313,-1,male,60.0,anterior torso,MEL,malignant,1,34,767,576
 ISIC_0000314,-1,female,35.0,lower extremity,MEL,malignant,1,38,767,576
-ISIC_0000390,-1,unknown,,,MEL,malignant,1,36,1024,768
-ISIC_0000393,-1,unknown,,,MEL,malignant,1,46,1024,768
-ISIC_0000395,-1,unknown,,,MEL,malignant,1,30,1024,768
-ISIC_0000410,-1,unknown,,,MEL,malignant,1,38,1024,878
-ISIC_0000412,-1,unknown,,,MEL,malignant,1,54,1024,861
-ISIC_0000413,-1,unknown,,,MEL,malignant,1,30,1024,768
-ISIC_0000415,-1,unknown,,,MEL,malignant,1,56,1024,768
-ISIC_0000420,-1,unknown,,,MEL,malignant,1,58,1024,768
-ISIC_0000434,-1,unknown,,,MEL,malignant,1,32,1024,768
-ISIC_0000444,-1,unknown,,,MEL,malignant,1,40,1024,768
-ISIC_0000445,-1,unknown,,,MEL,malignant,1,56,1024,768
-ISIC_0000463,-1,unknown,,,MEL,malignant,1,36,1024,680
+ISIC_0000390_downsampled,-1,unknown,,,MEL,malignant,1,36,1024,768
+ISIC_0000393_downsampled,-1,unknown,,,MEL,malignant,1,46,1024,768
+ISIC_0000395_downsampled,-1,unknown,,,MEL,malignant,1,30,1024,768
+ISIC_0000410_downsampled,-1,unknown,,,MEL,malignant,1,38,1024,878
+ISIC_0000412_downsampled,-1,unknown,,,MEL,malignant,1,54,1024,861
+ISIC_0000413_downsampled,-1,unknown,,,MEL,malignant,1,30,1024,768
+ISIC_0000415_downsampled,-1,unknown,,,MEL,malignant,1,56,1024,768
+ISIC_0000420_downsampled,-1,unknown,,,MEL,malignant,1,58,1024,768
+ISIC_0000434_downsampled,-1,unknown,,,MEL,malignant,1,32,1024,768
+ISIC_0000444_downsampled,-1,unknown,,,MEL,malignant,1,40,1024,768
+ISIC_0000445_downsampled,-1,unknown,,,MEL,malignant,1,56,1024,768
+ISIC_0000463_downsampled,-1,unknown,,,MEL,malignant,1,36,1024,680
 ISIC_0000466,-1,unknown,,posterior torso,MEL,malignant,1,38,919,802
 ISIC_0000469,-1,unknown,,upper extremity,MEL,malignant,1,46,919,802
 ISIC_0000482,-1,unknown,,lower extremity,MEL,malignant,1,56,919,802
@@ -94,9 +94,9 @@ ISIC_0000513,-1,unknown,,upper extremity,MEL,malignant,1,36,919,802
 ISIC_0000516,-1,unknown,,posterior torso,MEL,malignant,1,36,919,802
 ISIC_0000517,-1,unknown,,posterior torso,MEL,malignant,1,30,919,802
 ISIC_0000518,-1,unknown,,upper extremity,MEL,malignant,1,38,919,802
-ISIC_0000519,-1,unknown,,posterior torso,MEL,malignant,1,46,1024,768
-ISIC_0000520,-1,unknown,,upper extremity,MEL,malignant,1,34,1024,768
-ISIC_0000521,-1,unknown,,anterior torso,MEL,malignant,1,54,1024,768
+ISIC_0000519_downsampled,-1,unknown,,posterior torso,MEL,malignant,1,46,1024,768
+ISIC_0000520_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,34,1024,768
+ISIC_0000521_downsampled,-1,unknown,,anterior torso,MEL,malignant,1,54,1024,768
 ISIC_0000522,-1,unknown,,lower extremity,MEL,malignant,1,56,919,802
 ISIC_0000531,-1,unknown,,upper extremity,MEL,malignant,1,44,919,802
 ISIC_0000533,-1,unknown,,,MEL,malignant,1,46,1016,682
@@ -108,19 +108,19 @@ ISIC_0000551,-1,unknown,,posterior torso,MEL,malignant,1,52,838,614
 ISIC_0000552,-1,unknown,,,MEL,malignant,1,34,679,566
 ISIC_0000554,-1,unknown,,,MEL,malignant,1,50,824,719
 ISIC_0000555,-1,unknown,,,MEL,malignant,1,56,833,680
-ISIC_0001100,-1,male,85.0,upper extremity,MEL,malignant,1,48,1024,768
-ISIC_0001102,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,768
-ISIC_0001103,-1,male,80.0,upper extremity,MEL,malignant,1,38,1024,685
-ISIC_0001105,-1,male,35.0,anterior torso,MEL,malignant,1,52,1024,768
-ISIC_0001106,-1,male,70.0,lower extremity,MEL,malignant,1,52,1024,685
-ISIC_0001118,-1,male,70.0,lower extremity,MEL,malignant,1,34,1024,685
-ISIC_0001119,-1,male,55.0,posterior torso,MEL,malignant,1,50,1024,768
-ISIC_0001126,-1,male,65.0,anterior torso,MEL,malignant,1,30,1024,768
-ISIC_0001128,-1,male,40.0,lateral torso,MEL,malignant,1,44,1024,768
-ISIC_0001134,-1,male,65.0,lateral torso,MEL,malignant,1,54,1024,768
-ISIC_0001140,-1,female,50.0,lower extremity,MEL,malignant,1,47,1024,1024
-ISIC_0001148,-1,male,85.0,posterior torso,MEL,malignant,1,44,1024,768
-ISIC_0001152,-1,male,25.0,head/neck,MEL,malignant,1,30,1024,685
+ISIC_0001100_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,48,1024,768
+ISIC_0001102_downsampled,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,768
+ISIC_0001103_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,38,1024,685
+ISIC_0001105_downsampled,-1,male,35.0,anterior torso,MEL,malignant,1,52,1024,768
+ISIC_0001106_downsampled,-1,male,70.0,lower extremity,MEL,malignant,1,52,1024,685
+ISIC_0001118_downsampled,-1,male,70.0,lower extremity,MEL,malignant,1,34,1024,685
+ISIC_0001119_downsampled,-1,male,55.0,posterior torso,MEL,malignant,1,50,1024,768
+ISIC_0001126_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,30,1024,768
+ISIC_0001128_downsampled,-1,male,40.0,lateral torso,MEL,malignant,1,44,1024,768
+ISIC_0001134_downsampled,-1,male,65.0,lateral torso,MEL,malignant,1,54,1024,768
+ISIC_0001140_downsampled,-1,female,50.0,lower extremity,MEL,malignant,1,47,1024,1024
+ISIC_0001148_downsampled,-1,male,85.0,posterior torso,MEL,malignant,1,44,1024,768
+ISIC_0001152_downsampled,-1,male,25.0,head/neck,MEL,malignant,1,30,1024,685
 ISIC_0009868,-1,female,70.0,posterior torso,MEL,malignant,1,32,1024,768
 ISIC_0009882,-1,female,60.0,upper extremity,MEL,malignant,1,52,1024,768
 ISIC_0009897,-1,female,55.0,anterior torso,MEL,malignant,1,42,1024,768
@@ -225,317 +225,317 @@ ISIC_0011366,-1,male,65.0,posterior torso,MEL,malignant,1,54,1024,768
 ISIC_0011374,-1,male,80.0,head/neck,MEL,malignant,1,34,1024,768
 ISIC_0011387,-1,female,65.0,posterior torso,MEL,malignant,1,52,1024,768
 ISIC_0011390,-1,male,70.0,anterior torso,MEL,malignant,1,44,1024,768
-ISIC_0012099,-1,male,35.0,,MEL,malignant,1,54,1024,680
-ISIC_0012137,-1,male,65.0,,MEL,malignant,1,36,1024,680
-ISIC_0012151,-1,male,55.0,,MEL,malignant,1,34,1024,680
-ISIC_0012208,-1,male,30.0,,MEL,malignant,1,42,1024,680
-ISIC_0012258,-1,female,55.0,,MEL,malignant,1,52,1024,680
-ISIC_0012288,-1,male,70.0,,MEL,malignant,1,56,1024,680
-ISIC_0012290,-1,male,65.0,,MEL,malignant,1,40,1024,680
-ISIC_0012298,-1,female,65.0,,MEL,malignant,1,48,1024,680
-ISIC_0012348,-1,female,50.0,,MEL,malignant,1,42,1024,680
-ISIC_0012356,-1,female,70.0,,MEL,malignant,1,56,1024,680
-ISIC_0012369,-1,male,55.0,,MEL,malignant,1,52,1024,680
-ISIC_0012382,-1,male,60.0,,MEL,malignant,1,56,1024,680
-ISIC_0012391,-1,male,70.0,,MEL,malignant,1,32,1024,680
-ISIC_0012395,-1,male,50.0,,MEL,malignant,1,38,1024,680
-ISIC_0012425,-1,male,50.0,,MEL,malignant,1,56,1024,680
-ISIC_0012434,-1,female,40.0,,MEL,malignant,1,32,1024,680
-ISIC_0012435,-1,male,50.0,,MEL,malignant,1,56,1024,680
-ISIC_0012450,-1,male,50.0,,MEL,malignant,1,52,1024,680
-ISIC_0012512,-1,male,75.0,,MEL,malignant,1,32,1024,680
-ISIC_0012678,-1,male,70.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0012701,-1,male,70.0,lateral torso,MEL,malignant,1,56,1024,680
-ISIC_0012715,-1,female,80.0,head/neck,MEL,malignant,1,56,1024,680
-ISIC_0012749,-1,male,85.0,head/neck,MEL,malignant,1,42,1024,680
-ISIC_0012756,-1,male,55.0,anterior torso,MEL,malignant,1,32,1024,685
+ISIC_0012099_downsampled,-1,male,35.0,,MEL,malignant,1,54,1024,680
+ISIC_0012137_downsampled,-1,male,65.0,,MEL,malignant,1,36,1024,680
+ISIC_0012151_downsampled,-1,male,55.0,,MEL,malignant,1,34,1024,680
+ISIC_0012208_downsampled,-1,male,30.0,,MEL,malignant,1,42,1024,680
+ISIC_0012258_downsampled,-1,female,55.0,,MEL,malignant,1,52,1024,680
+ISIC_0012288_downsampled,-1,male,70.0,,MEL,malignant,1,56,1024,680
+ISIC_0012290_downsampled,-1,male,65.0,,MEL,malignant,1,40,1024,680
+ISIC_0012298_downsampled,-1,female,65.0,,MEL,malignant,1,48,1024,680
+ISIC_0012348_downsampled,-1,female,50.0,,MEL,malignant,1,42,1024,680
+ISIC_0012356_downsampled,-1,female,70.0,,MEL,malignant,1,56,1024,680
+ISIC_0012369_downsampled,-1,male,55.0,,MEL,malignant,1,52,1024,680
+ISIC_0012382_downsampled,-1,male,60.0,,MEL,malignant,1,56,1024,680
+ISIC_0012391_downsampled,-1,male,70.0,,MEL,malignant,1,32,1024,680
+ISIC_0012395_downsampled,-1,male,50.0,,MEL,malignant,1,38,1024,680
+ISIC_0012425_downsampled,-1,male,50.0,,MEL,malignant,1,56,1024,680
+ISIC_0012434_downsampled,-1,female,40.0,,MEL,malignant,1,32,1024,680
+ISIC_0012435_downsampled,-1,male,50.0,,MEL,malignant,1,56,1024,680
+ISIC_0012450_downsampled,-1,male,50.0,,MEL,malignant,1,52,1024,680
+ISIC_0012512_downsampled,-1,male,75.0,,MEL,malignant,1,32,1024,680
+ISIC_0012678_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0012701_downsampled,-1,male,70.0,lateral torso,MEL,malignant,1,56,1024,680
+ISIC_0012715_downsampled,-1,female,80.0,head/neck,MEL,malignant,1,56,1024,680
+ISIC_0012749_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,42,1024,680
+ISIC_0012756_downsampled,-1,male,55.0,anterior torso,MEL,malignant,1,32,1024,685
 ISIC_0012758,-1,male,45.0,lateral torso,MEL,malignant,1,50,639,602
-ISIC_0012887,-1,male,45.0,lateral torso,MEL,malignant,1,30,1024,680
-ISIC_0012930,-1,female,70.0,posterior torso,MEL,malignant,1,54,1024,680
-ISIC_0012988,-1,male,45.0,lateral torso,MEL,malignant,1,56,1024,680
-ISIC_0012989,-1,male,45.0,lateral torso,MEL,malignant,1,50,1024,680
-ISIC_0012990,-1,male,45.0,lateral torso,MEL,malignant,1,46,1024,680
-ISIC_0013072,-1,female,70.0,lower extremity,MEL,malignant,1,42,1024,680
-ISIC_0013073,-1,female,70.0,lower extremity,MEL,malignant,1,44,1024,680
-ISIC_0013079,-1,male,80.0,upper extremity,MEL,malignant,1,34,1024,680
-ISIC_0013141,-1,male,45.0,lower extremity,MEL,malignant,1,38,1024,680
-ISIC_0013184,-1,male,55.0,anterior torso,MEL,malignant,1,50,1024,685
-ISIC_0013198,-1,male,80.0,head/neck,MEL,malignant,1,30,1024,680
-ISIC_0013232,-1,female,70.0,posterior torso,MEL,malignant,1,38,1024,680
-ISIC_0013242,-1,male,85.0,upper extremity,MEL,malignant,1,50,1024,685
-ISIC_0013258,-1,male,65.0,anterior torso,MEL,malignant,1,34,1024,680
-ISIC_0013277,-1,male,70.0,posterior torso,MEL,malignant,1,54,1024,680
-ISIC_0013321,-1,female,80.0,palms/soles,MEL,malignant,1,56,1024,680
-ISIC_0013334,-1,male,80.0,head/neck,MEL,malignant,1,30,1024,680
-ISIC_0013359,-1,male,70.0,anterior torso,MEL,malignant,1,54,1024,680
-ISIC_0013365,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0013374,-1,female,85.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0013411,-1,male,70.0,head/neck,MEL,malignant,1,38,1024,680
-ISIC_0013414,-1,male,70.0,posterior torso,MEL,malignant,1,44,1024,680
-ISIC_0013427,-1,male,65.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0013429,-1,female,75.0,head/neck,MEL,malignant,1,32,1024,680
-ISIC_0013455,-1,male,80.0,upper extremity,MEL,malignant,1,46,1024,680
-ISIC_0013457,-1,female,50.0,lower extremity,MEL,malignant,1,30,1024,680
-ISIC_0013459,-1,male,45.0,head/neck,MEL,malignant,1,56,1024,680
-ISIC_0013472,-1,female,80.0,anterior torso,MEL,malignant,1,40,1024,680
-ISIC_0013473,-1,male,85.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0013490,-1,male,60.0,lower extremity,MEL,malignant,1,36,1024,680
-ISIC_0013491,-1,male,60.0,lower extremity,MEL,malignant,1,30,1024,680
-ISIC_0013497,-1,male,65.0,head/neck,MEL,malignant,1,58,1024,680
-ISIC_0013499,-1,male,65.0,posterior torso,MEL,malignant,1,38,1024,685
-ISIC_0013500,-1,male,65.0,upper extremity,MEL,malignant,1,46,1024,685
-ISIC_0013501,-1,male,65.0,upper extremity,MEL,malignant,1,46,1024,680
-ISIC_0013518,-1,male,65.0,anterior torso,MEL,malignant,1,36,1024,680
-ISIC_0013525,-1,male,50.0,anterior torso,MEL,malignant,1,42,1024,680
-ISIC_0013530,-1,female,55.0,upper extremity,MEL,malignant,1,52,1024,680
-ISIC_0013549,-1,male,85.0,upper extremity,MEL,malignant,1,54,1024,680
-ISIC_0013565,-1,male,75.0,head/neck,MEL,malignant,1,54,1024,680
-ISIC_0013567,-1,female,70.0,head/neck,MEL,malignant,1,38,1024,680
-ISIC_0013572,-1,male,50.0,lower extremity,MEL,malignant,1,30,1024,680
-ISIC_0013573,-1,male,60.0,head/neck,MEL,malignant,1,38,1024,685
-ISIC_0013577,-1,male,60.0,anterior torso,MEL,malignant,1,34,1024,680
-ISIC_0013578,-1,male,60.0,,MEL,malignant,1,36,1024,680
-ISIC_0013579,-1,male,60.0,anterior torso,MEL,malignant,1,52,1024,680
-ISIC_0013581,-1,female,60.0,upper extremity,MEL,malignant,1,56,1024,680
-ISIC_0013588,-1,female,85.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0013594,-1,male,80.0,lower extremity,MEL,malignant,1,48,1024,680
-ISIC_0013606,-1,male,85.0,upper extremity,MEL,malignant,1,44,1024,680
-ISIC_0013610,-1,female,80.0,lower extremity,MEL,malignant,1,34,1024,680
-ISIC_0013615,-1,male,85.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0013617,-1,male,60.0,lateral torso,MEL,malignant,1,42,1024,685
-ISIC_0013618,-1,male,65.0,posterior torso,MEL,malignant,1,52,1024,680
-ISIC_0013626,-1,male,65.0,anterior torso,MEL,malignant,1,52,1024,685
-ISIC_0013634,-1,female,75.0,upper extremity,MEL,malignant,1,58,1024,680
-ISIC_0013636,-1,female,55.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0013639,-1,male,50.0,upper extremity,MEL,malignant,1,30,1024,685
-ISIC_0013644,-1,female,50.0,head/neck,MEL,malignant,1,36,1024,680
-ISIC_0013651,-1,male,80.0,head/neck,MEL,malignant,1,54,1024,680
-ISIC_0013652,-1,female,75.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0013663,-1,female,55.0,upper extremity,MEL,malignant,1,40,1024,680
-ISIC_0013671,-1,male,55.0,anterior torso,MEL,malignant,1,40,1024,680
-ISIC_0013672,-1,male,55.0,anterior torso,MEL,malignant,1,32,1024,680
-ISIC_0013674,-1,female,60.0,posterior torso,MEL,malignant,1,48,1024,680
-ISIC_0013678,-1,male,55.0,upper extremity,MEL,malignant,1,56,1024,680
-ISIC_0013696,-1,male,70.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0013702,-1,male,40.0,anterior torso,MEL,malignant,1,44,1024,680
-ISIC_0013733,-1,male,75.0,upper extremity,MEL,malignant,1,54,1024,680
-ISIC_0013736,-1,male,55.0,posterior torso,MEL,malignant,1,34,1024,680
-ISIC_0013739,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0013740,-1,male,70.0,posterior torso,MEL,malignant,1,46,1024,680
-ISIC_0013762,-1,male,80.0,anterior torso,MEL,malignant,1,46,1024,680
-ISIC_0013766,-1,male,65.0,posterior torso,MEL,malignant,1,40,1024,680
-ISIC_0013767,-1,male,65.0,upper extremity,MEL,malignant,1,54,1024,685
-ISIC_0013775,-1,male,60.0,anterior torso,MEL,malignant,1,50,1024,680
-ISIC_0013777,-1,male,75.0,upper extremity,MEL,malignant,1,44,1024,680
-ISIC_0013783,-1,male,70.0,upper extremity,MEL,malignant,1,40,1024,680
-ISIC_0013813,-1,male,75.0,head/neck,MEL,malignant,1,34,1024,680
-ISIC_0013814,-1,male,75.0,head/neck,MEL,malignant,1,52,1024,680
-ISIC_0013815,-1,female,65.0,upper extremity,MEL,malignant,1,44,1024,680
-ISIC_0013828,-1,female,70.0,head/neck,MEL,malignant,1,56,1024,680
-ISIC_0013831,-1,female,50.0,lateral torso,MEL,malignant,1,56,1024,680
-ISIC_0013832,-1,male,65.0,posterior torso,MEL,malignant,1,50,1024,680
-ISIC_0013833,-1,male,70.0,posterior torso,MEL,malignant,1,54,1024,680
-ISIC_0013839,-1,female,55.0,lower extremity,MEL,malignant,1,34,1024,680
-ISIC_0013840,-1,male,80.0,head/neck,MEL,malignant,1,42,1024,680
-ISIC_0013842,-1,male,65.0,lower extremity,MEL,malignant,1,48,1024,680
-ISIC_0013844,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0013845,-1,male,70.0,posterior torso,MEL,malignant,1,36,1024,680
-ISIC_0013861,-1,male,80.0,upper extremity,MEL,malignant,1,50,1024,680
-ISIC_0013865,-1,female,45.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0013867,-1,female,75.0,lower extremity,MEL,malignant,1,32,1024,680
-ISIC_0013874,-1,male,60.0,anterior torso,MEL,malignant,1,48,1024,680
-ISIC_0013908,-1,male,75.0,posterior torso,MEL,malignant,1,44,1024,680
-ISIC_0013917,-1,male,55.0,lower extremity,MEL,malignant,1,42,1024,680
-ISIC_0013925,-1,female,75.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0013936,-1,male,25.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0013948,-1,female,70.0,upper extremity,MEL,malignant,1,38,1024,680
-ISIC_0013953,-1,male,70.0,head/neck,MEL,malignant,1,32,1024,685
-ISIC_0013969,-1,female,80.0,anterior torso,MEL,malignant,1,32,1024,680
-ISIC_0013972,-1,male,70.0,anterior torso,MEL,malignant,1,58,1024,680
-ISIC_0013975,-1,female,80.0,head/neck,MEL,malignant,1,32,1024,680
-ISIC_0013984,-1,male,60.0,lower extremity,MEL,malignant,1,36,1024,680
-ISIC_0013986,-1,female,60.0,upper extremity,MEL,malignant,1,46,1024,680
-ISIC_0013987,-1,female,60.0,upper extremity,MEL,malignant,1,50,1024,680
-ISIC_0013988,-1,female,60.0,upper extremity,MEL,malignant,1,58,1024,680
-ISIC_0013995,-1,male,65.0,posterior torso,MEL,malignant,1,58,1024,680
-ISIC_0013997,-1,male,65.0,posterior torso,MEL,malignant,1,52,1024,680
-ISIC_0014013,-1,male,50.0,,MEL,malignant,1,48,1024,680
-ISIC_0014027,-1,male,55.0,upper extremity,MEL,malignant,1,40,1024,680
-ISIC_0014037,-1,male,80.0,head/neck,MEL,malignant,1,34,1024,680
-ISIC_0014044,-1,female,55.0,upper extremity,MEL,malignant,1,36,1024,680
-ISIC_0014049,-1,male,75.0,posterior torso,MEL,malignant,1,56,1024,680
-ISIC_0014059,-1,male,50.0,lateral torso,MEL,malignant,1,38,1024,680
-ISIC_0014061,-1,female,60.0,posterior torso,MEL,malignant,1,34,1024,680
-ISIC_0014062,-1,female,60.0,head/neck,MEL,malignant,1,32,1024,680
-ISIC_0014072,-1,male,70.0,anterior torso,MEL,malignant,1,42,1024,680
-ISIC_0014076,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0014077,-1,male,70.0,anterior torso,MEL,malignant,1,48,1024,680
-ISIC_0014079,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0014082,-1,male,80.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0014088,-1,female,45.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0014092,-1,female,65.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0014099,-1,female,85.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0014103,-1,male,70.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0014108,-1,male,80.0,posterior torso,MEL,malignant,1,48,1024,680
-ISIC_0014110,-1,male,70.0,lower extremity,MEL,malignant,1,32,1024,680
-ISIC_0014127,-1,male,50.0,posterior torso,MEL,malignant,1,52,1024,680
-ISIC_0014129,-1,female,60.0,anterior torso,MEL,malignant,1,50,1024,680
-ISIC_0014132,-1,male,50.0,head/neck,MEL,malignant,1,52,1024,680
-ISIC_0014133,-1,male,85.0,anterior torso,MEL,malignant,1,52,1024,680
-ISIC_0014136,-1,female,75.0,upper extremity,MEL,malignant,1,50,1024,680
-ISIC_0014144,-1,male,85.0,head/neck,MEL,malignant,1,58,1024,680
-ISIC_0014148,-1,male,70.0,head/neck,MEL,malignant,1,58,1024,680
-ISIC_0014151,-1,male,80.0,lower extremity,MEL,malignant,1,40,1024,680
-ISIC_0014156,-1,male,75.0,posterior torso,MEL,malignant,1,46,1024,680
-ISIC_0014157,-1,male,55.0,posterior torso,MEL,malignant,1,56,1024,680
-ISIC_0014160,-1,female,55.0,upper extremity,MEL,malignant,1,34,1024,680
-ISIC_0014163,-1,male,70.0,upper extremity,MEL,malignant,1,30,1024,680
-ISIC_0014171,-1,male,70.0,head/neck,MEL,malignant,1,50,1024,680
-ISIC_0014173,-1,male,55.0,anterior torso,MEL,malignant,1,48,1024,680
-ISIC_0014181,-1,male,70.0,upper extremity,MEL,malignant,1,36,1024,680
-ISIC_0014183,-1,male,85.0,anterior torso,MEL,malignant,1,30,1024,680
-ISIC_0014186,-1,male,75.0,head/neck,MEL,malignant,1,44,1024,680
-ISIC_0014187,-1,female,80.0,head/neck,MEL,malignant,1,50,1024,680
-ISIC_0014189,-1,male,85.0,anterior torso,MEL,malignant,1,36,1024,680
-ISIC_0014190,-1,female,80.0,posterior torso,MEL,malignant,1,30,1024,680
-ISIC_0014217,-1,male,80.0,posterior torso,MEL,malignant,1,48,1024,680
-ISIC_0014219,-1,female,65.0,upper extremity,MEL,malignant,1,44,1024,680
-ISIC_0014221,-1,male,85.0,upper extremity,MEL,malignant,1,58,1024,680
-ISIC_0014222,-1,male,70.0,head/neck,MEL,malignant,1,58,1024,680
-ISIC_0014229,-1,female,75.0,lower extremity,MEL,malignant,1,38,1024,680
-ISIC_0014233,-1,female,80.0,posterior torso,MEL,malignant,1,40,1024,680
-ISIC_0014238,-1,female,55.0,posterior torso,MEL,malignant,1,46,1024,680
-ISIC_0014249,-1,male,85.0,posterior torso,MEL,malignant,1,50,1024,680
-ISIC_0014255,-1,male,65.0,anterior torso,MEL,malignant,1,32,1024,680
-ISIC_0014270,-1,female,85.0,lower extremity,MEL,malignant,1,52,1024,680
-ISIC_0014284,-1,male,50.0,head/neck,MEL,malignant,1,52,1024,680
-ISIC_0014288,-1,female,65.0,lower extremity,MEL,malignant,1,58,1024,680
-ISIC_0014289,-1,male,60.0,anterior torso,MEL,malignant,1,-1,1024,680
-ISIC_0014290,-1,female,60.0,upper extremity,MEL,malignant,1,36,1024,680
-ISIC_0014291,-1,male,60.0,posterior torso,MEL,malignant,1,34,1024,680
-ISIC_0014302,-1,male,85.0,posterior torso,MEL,malignant,1,38,1024,680
-ISIC_0014308,-1,female,80.0,upper extremity,MEL,malignant,1,46,1024,680
-ISIC_0014316,-1,female,60.0,posterior torso,MEL,malignant,1,44,1024,680
-ISIC_0014319,-1,female,70.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0014324,-1,male,80.0,head/neck,MEL,malignant,1,56,1024,680
-ISIC_0014325,-1,female,70.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0014327,-1,female,80.0,lower extremity,MEL,malignant,1,36,1024,680
-ISIC_0014331,-1,female,60.0,head/neck,MEL,malignant,1,-1,1024,680
-ISIC_0014336,-1,male,80.0,head/neck,MEL,malignant,1,34,1024,680
-ISIC_0014337,-1,male,85.0,head/neck,MEL,malignant,1,34,1024,680
-ISIC_0014347,-1,male,65.0,posterior torso,MEL,malignant,1,56,1024,680
-ISIC_0014349,-1,male,80.0,posterior torso,MEL,malignant,1,32,1024,680
-ISIC_0014357,-1,male,65.0,head/neck,MEL,malignant,1,32,1024,680
-ISIC_0014360,-1,male,75.0,upper extremity,MEL,malignant,1,-1,1024,680
-ISIC_0014361,-1,male,70.0,lower extremity,MEL,malignant,1,48,1024,680
-ISIC_0014366,-1,female,70.0,posterior torso,MEL,malignant,1,42,1024,680
-ISIC_0014369,-1,male,25.0,lower extremity,MEL,malignant,1,-1,1024,680
-ISIC_0014372,-1,male,80.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0014385,-1,male,75.0,head/neck,MEL,malignant,1,38,1024,680
-ISIC_0014395,-1,male,70.0,head/neck,MEL,malignant,1,54,1024,680
-ISIC_0014422,-1,female,55.0,lower extremity,MEL,malignant,1,32,1024,680
-ISIC_0014423,-1,female,80.0,head/neck,MEL,malignant,1,46,1024,680
-ISIC_0014428,-1,female,55.0,anterior torso,MEL,malignant,1,42,1024,680
-ISIC_0014434,-1,female,35.0,upper extremity,MEL,malignant,1,50,1024,680
-ISIC_0014454,-1,female,65.0,upper extremity,MEL,malignant,1,46,1024,680
-ISIC_0014476,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,680
-ISIC_0014478,-1,male,65.0,posterior torso,MEL,malignant,1,-1,1024,680
-ISIC_0014480,-1,male,65.0,posterior torso,MEL,malignant,1,54,1024,680
-ISIC_0014486,-1,female,85.0,lower extremity,MEL,malignant,1,36,1024,680
-ISIC_0014489,-1,female,60.0,anterior torso,MEL,malignant,1,36,1024,680
-ISIC_0014501,-1,female,70.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0014506,-1,female,80.0,upper extremity,MEL,malignant,1,38,1024,680
-ISIC_0014507,-1,male,65.0,posterior torso,MEL,malignant,1,-1,1024,680
-ISIC_0014513,-1,female,70.0,upper extremity,MEL,malignant,1,-1,1024,680
-ISIC_0014518,-1,male,70.0,anterior torso,MEL,malignant,1,58,1024,680
-ISIC_0014525,-1,male,75.0,upper extremity,MEL,malignant,1,52,1024,680
-ISIC_0014527,-1,male,65.0,upper extremity,MEL,malignant,1,36,1024,680
-ISIC_0014541,-1,male,70.0,anterior torso,MEL,malignant,1,48,1024,680
-ISIC_0014542,-1,male,70.0,upper extremity,MEL,malignant,1,50,1024,680
-ISIC_0014543,-1,female,55.0,lower extremity,MEL,malignant,1,54,1024,680
-ISIC_0014545,-1,female,55.0,anterior torso,MEL,malignant,1,32,1024,680
-ISIC_0014546,-1,female,65.0,posterior torso,MEL,malignant,1,58,1024,680
-ISIC_0014548,-1,female,65.0,anterior torso,MEL,malignant,1,36,1024,680
-ISIC_0014557,-1,male,85.0,head/neck,MEL,malignant,1,56,1024,680
-ISIC_0014558,-1,male,75.0,upper extremity,MEL,malignant,1,48,1024,680
-ISIC_0014559,-1,male,75.0,anterior torso,MEL,malignant,1,32,1024,680
-ISIC_0014663,-1,male,85.0,upper extremity,MEL,malignant,1,42,1024,687
-ISIC_0014666,-1,male,70.0,upper extremity,MEL,malignant,1,42,1024,681
-ISIC_0014688,-1,male,70.0,anterior torso,MEL,malignant,1,46,1024,677
-ISIC_0014695,-1,male,40.0,posterior torso,MEL,malignant,1,36,1024,681
-ISIC_0014703,-1,male,75.0,lower extremity,MEL,malignant,1,46,1024,682
-ISIC_0014722,-1,female,40.0,posterior torso,MEL,malignant,1,36,1024,682
-ISIC_0014727,-1,male,65.0,head/neck,MEL,malignant,1,32,1024,684
-ISIC_0014735,-1,female,35.0,lower extremity,MEL,malignant,1,34,1024,677
-ISIC_0014766,-1,male,50.0,upper extremity,MEL,malignant,1,42,1024,683
-ISIC_0014772,-1,male,75.0,upper extremity,MEL,malignant,1,50,1024,678
-ISIC_0014784,-1,male,45.0,anterior torso,MEL,malignant,1,42,1024,681
-ISIC_0014788,-1,unknown,,upper extremity,MEL,malignant,1,48,1024,686
-ISIC_0014790,-1,male,85.0,head/neck,MEL,malignant,1,40,1024,684
-ISIC_0014795,-1,male,65.0,posterior torso,MEL,malignant,1,32,1024,681
-ISIC_0014800,-1,female,45.0,lower extremity,MEL,malignant,1,34,1024,681
-ISIC_0014809,-1,female,70.0,posterior torso,MEL,malignant,1,54,1024,683
-ISIC_0014826,-1,male,45.0,anterior torso,MEL,malignant,1,42,1024,680
-ISIC_0014832,-1,male,55.0,upper extremity,MEL,malignant,1,30,1024,684
-ISIC_0014857,-1,male,70.0,posterior torso,MEL,malignant,1,58,1024,685
-ISIC_0014862,-1,female,25.0,anterior torso,MEL,malignant,1,42,1024,681
-ISIC_0014872,-1,male,50.0,upper extremity,MEL,malignant,1,32,1024,684
-ISIC_0014883,-1,unknown,,palms/soles,MEL,malignant,1,38,1024,681
-ISIC_0014891,-1,male,40.0,upper extremity,MEL,malignant,1,30,1024,681
-ISIC_0014897,-1,female,,upper extremity,MEL,malignant,1,48,1024,684
-ISIC_0014912,-1,female,,lower extremity,MEL,malignant,1,34,1024,677
-ISIC_0014919,-1,unknown,,lower extremity,MEL,malignant,1,54,1024,680
-ISIC_0014920,-1,female,25.0,posterior torso,MEL,malignant,1,56,1024,681
-ISIC_0014922,-1,female,,upper extremity,MEL,malignant,1,42,1024,681
-ISIC_0014928,-1,female,30.0,posterior torso,MEL,malignant,1,42,1024,679
-ISIC_0014931,-1,male,65.0,anterior torso,MEL,malignant,1,52,1024,679
-ISIC_0014932,-1,unknown,,palms/soles,MEL,malignant,1,36,1024,679
-ISIC_0014946,-1,male,65.0,posterior torso,MEL,malignant,1,36,1024,679
-ISIC_0014951,-1,unknown,,lower extremity,MEL,malignant,1,46,1024,679
-ISIC_0014963,-1,male,60.0,lateral torso,MEL,malignant,1,44,1024,682
-ISIC_0014975,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,682
-ISIC_0014979,-1,male,70.0,upper extremity,MEL,malignant,1,32,1024,681
-ISIC_0014982,-1,unknown,,upper extremity,MEL,malignant,1,50,1024,681
-ISIC_0014983,-1,male,55.0,lower extremity,MEL,malignant,1,48,1024,683
-ISIC_0014985,-1,male,60.0,head/neck,MEL,malignant,1,42,1024,682
-ISIC_0014987,-1,female,40.0,upper extremity,MEL,malignant,1,48,1024,683
-ISIC_0015004,-1,male,65.0,anterior torso,MEL,malignant,1,50,1024,688
-ISIC_0015005,-1,female,55.0,posterior torso,MEL,malignant,1,50,1024,683
-ISIC_0015041,-1,female,50.0,upper extremity,MEL,malignant,1,42,1024,680
-ISIC_0015045,-1,male,55.0,posterior torso,MEL,malignant,1,52,1024,679
-ISIC_0015046,-1,unknown,,lower extremity,MEL,malignant,1,32,1024,681
-ISIC_0015050,-1,male,50.0,anterior torso,MEL,malignant,1,38,1024,679
-ISIC_0015071,-1,female,35.0,upper extremity,MEL,malignant,1,44,1024,677
-ISIC_0015079,-1,unknown,,posterior torso,MEL,malignant,1,38,1024,680
-ISIC_0015082,-1,female,55.0,posterior torso,MEL,malignant,1,44,1024,677
-ISIC_0015109,-1,male,40.0,posterior torso,MEL,malignant,1,38,1024,682
-ISIC_0015110,-1,male,65.0,upper extremity,MEL,malignant,1,38,1024,674
-ISIC_0015115,-1,male,60.0,upper extremity,MEL,malignant,1,48,1024,677
-ISIC_0015119,-1,male,55.0,,MEL,malignant,1,42,1024,679
-ISIC_0015124,-1,male,45.0,posterior torso,MEL,malignant,1,44,1024,677
-ISIC_0015127,-1,unknown,,lower extremity,MEL,malignant,1,52,1024,674
-ISIC_0015132,-1,male,75.0,posterior torso,MEL,malignant,1,48,1024,677
-ISIC_0015133,-1,unknown,,lower extremity,MEL,malignant,1,48,1024,683
-ISIC_0015136,-1,male,65.0,upper extremity,MEL,malignant,1,36,1024,677
-ISIC_0015142,-1,unknown,,upper extremity,MEL,malignant,1,30,1024,674
-ISIC_0015156,-1,female,65.0,anterior torso,MEL,malignant,1,48,1024,681
-ISIC_0015163,-1,female,75.0,head/neck,MEL,malignant,1,50,1024,682
-ISIC_0015166,-1,unknown,,posterior torso,MEL,malignant,1,30,1024,689
-ISIC_0015167,-1,unknown,,head/neck,MEL,malignant,1,50,1024,678
-ISIC_0015180,-1,male,65.0,head/neck,MEL,malignant,1,42,1024,679
-ISIC_0015185,-1,male,70.0,head/neck,MEL,malignant,1,50,1024,684
-ISIC_0015189,-1,male,35.0,posterior torso,MEL,malignant,1,48,1024,681
-ISIC_0015190,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,680
-ISIC_0015193,-1,unknown,,lower extremity,MEL,malignant,1,32,1024,682
-ISIC_0015200,-1,unknown,,upper extremity,MEL,malignant,1,50,1024,679
-ISIC_0015204,-1,male,30.0,lower extremity,MEL,malignant,1,30,1024,681
-ISIC_0015206,-1,female,40.0,lower extremity,MEL,malignant,1,46,1024,684
-ISIC_0015219,-1,male,,upper extremity,MEL,malignant,1,52,1024,684
-ISIC_0015229,-1,male,75.0,lower extremity,MEL,malignant,1,30,1024,679
-ISIC_0015243,-1,male,60.0,anterior torso,MEL,malignant,1,58,1024,682
-ISIC_0015251,-1,female,45.0,posterior torso,MEL,malignant,1,48,1024,682
-ISIC_0015256,-1,male,65.0,upper extremity,MEL,malignant,1,38,1024,684
-ISIC_0015284,-1,male,75.0,head/neck,MEL,malignant,1,36,1024,680
+ISIC_0012887_downsampled,-1,male,45.0,lateral torso,MEL,malignant,1,30,1024,680
+ISIC_0012930_downsampled,-1,female,70.0,posterior torso,MEL,malignant,1,54,1024,680
+ISIC_0012988_downsampled,-1,male,45.0,lateral torso,MEL,malignant,1,56,1024,680
+ISIC_0012989_downsampled,-1,male,45.0,lateral torso,MEL,malignant,1,50,1024,680
+ISIC_0012990_downsampled,-1,male,45.0,lateral torso,MEL,malignant,1,46,1024,680
+ISIC_0013072_downsampled,-1,female,70.0,lower extremity,MEL,malignant,1,42,1024,680
+ISIC_0013073_downsampled,-1,female,70.0,lower extremity,MEL,malignant,1,44,1024,680
+ISIC_0013079_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,34,1024,680
+ISIC_0013141_downsampled,-1,male,45.0,lower extremity,MEL,malignant,1,38,1024,680
+ISIC_0013184_downsampled,-1,male,55.0,anterior torso,MEL,malignant,1,50,1024,685
+ISIC_0013198_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,30,1024,680
+ISIC_0013232_downsampled,-1,female,70.0,posterior torso,MEL,malignant,1,38,1024,680
+ISIC_0013242_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,50,1024,685
+ISIC_0013258_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,34,1024,680
+ISIC_0013277_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,54,1024,680
+ISIC_0013321_downsampled,-1,female,80.0,palms/soles,MEL,malignant,1,56,1024,680
+ISIC_0013334_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,30,1024,680
+ISIC_0013359_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,54,1024,680
+ISIC_0013365_downsampled,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0013374_downsampled,-1,female,85.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0013411_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,38,1024,680
+ISIC_0013414_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,44,1024,680
+ISIC_0013427_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0013429_downsampled,-1,female,75.0,head/neck,MEL,malignant,1,32,1024,680
+ISIC_0013455_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,46,1024,680
+ISIC_0013457_downsampled,-1,female,50.0,lower extremity,MEL,malignant,1,30,1024,680
+ISIC_0013459_downsampled,-1,male,45.0,head/neck,MEL,malignant,1,56,1024,680
+ISIC_0013472_downsampled,-1,female,80.0,anterior torso,MEL,malignant,1,40,1024,680
+ISIC_0013473_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0013490_downsampled,-1,male,60.0,lower extremity,MEL,malignant,1,36,1024,680
+ISIC_0013491_downsampled,-1,male,60.0,lower extremity,MEL,malignant,1,30,1024,680
+ISIC_0013497_downsampled,-1,male,65.0,head/neck,MEL,malignant,1,58,1024,680
+ISIC_0013499_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,38,1024,685
+ISIC_0013500_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,46,1024,685
+ISIC_0013501_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,46,1024,680
+ISIC_0013518_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,36,1024,680
+ISIC_0013525_downsampled,-1,male,50.0,anterior torso,MEL,malignant,1,42,1024,680
+ISIC_0013530_downsampled,-1,female,55.0,upper extremity,MEL,malignant,1,52,1024,680
+ISIC_0013549_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,54,1024,680
+ISIC_0013565_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,54,1024,680
+ISIC_0013567_downsampled,-1,female,70.0,head/neck,MEL,malignant,1,38,1024,680
+ISIC_0013572_downsampled,-1,male,50.0,lower extremity,MEL,malignant,1,30,1024,680
+ISIC_0013573_downsampled,-1,male,60.0,head/neck,MEL,malignant,1,38,1024,685
+ISIC_0013577_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,34,1024,680
+ISIC_0013578_downsampled,-1,male,60.0,,MEL,malignant,1,36,1024,680
+ISIC_0013579_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,52,1024,680
+ISIC_0013581_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,56,1024,680
+ISIC_0013588_downsampled,-1,female,85.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0013594_downsampled,-1,male,80.0,lower extremity,MEL,malignant,1,48,1024,680
+ISIC_0013606_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,44,1024,680
+ISIC_0013610_downsampled,-1,female,80.0,lower extremity,MEL,malignant,1,34,1024,680
+ISIC_0013615_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0013617_downsampled,-1,male,60.0,lateral torso,MEL,malignant,1,42,1024,685
+ISIC_0013618_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,52,1024,680
+ISIC_0013626_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,52,1024,685
+ISIC_0013634_downsampled,-1,female,75.0,upper extremity,MEL,malignant,1,58,1024,680
+ISIC_0013636_downsampled,-1,female,55.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0013639_downsampled,-1,male,50.0,upper extremity,MEL,malignant,1,30,1024,685
+ISIC_0013644_downsampled,-1,female,50.0,head/neck,MEL,malignant,1,36,1024,680
+ISIC_0013651_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,54,1024,680
+ISIC_0013652_downsampled,-1,female,75.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0013663_downsampled,-1,female,55.0,upper extremity,MEL,malignant,1,40,1024,680
+ISIC_0013671_downsampled,-1,male,55.0,anterior torso,MEL,malignant,1,40,1024,680
+ISIC_0013672_downsampled,-1,male,55.0,anterior torso,MEL,malignant,1,32,1024,680
+ISIC_0013674_downsampled,-1,female,60.0,posterior torso,MEL,malignant,1,48,1024,680
+ISIC_0013678_downsampled,-1,male,55.0,upper extremity,MEL,malignant,1,56,1024,680
+ISIC_0013696_downsampled,-1,male,70.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0013702_downsampled,-1,male,40.0,anterior torso,MEL,malignant,1,44,1024,680
+ISIC_0013733_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,54,1024,680
+ISIC_0013736_downsampled,-1,male,55.0,posterior torso,MEL,malignant,1,34,1024,680
+ISIC_0013739_downsampled,-1,female,50.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0013740_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,46,1024,680
+ISIC_0013762_downsampled,-1,male,80.0,anterior torso,MEL,malignant,1,46,1024,680
+ISIC_0013766_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,40,1024,680
+ISIC_0013767_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,54,1024,685
+ISIC_0013775_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,50,1024,680
+ISIC_0013777_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,44,1024,680
+ISIC_0013783_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,40,1024,680
+ISIC_0013813_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,34,1024,680
+ISIC_0013814_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,52,1024,680
+ISIC_0013815_downsampled,-1,female,65.0,upper extremity,MEL,malignant,1,44,1024,680
+ISIC_0013828_downsampled,-1,female,70.0,head/neck,MEL,malignant,1,56,1024,680
+ISIC_0013831_downsampled,-1,female,50.0,lateral torso,MEL,malignant,1,56,1024,680
+ISIC_0013832_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,50,1024,680
+ISIC_0013833_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,54,1024,680
+ISIC_0013839_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,34,1024,680
+ISIC_0013840_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,42,1024,680
+ISIC_0013842_downsampled,-1,male,65.0,lower extremity,MEL,malignant,1,48,1024,680
+ISIC_0013844_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0013845_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,36,1024,680
+ISIC_0013861_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,50,1024,680
+ISIC_0013865_downsampled,-1,female,45.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0013867_downsampled,-1,female,75.0,lower extremity,MEL,malignant,1,32,1024,680
+ISIC_0013874_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,48,1024,680
+ISIC_0013908_downsampled,-1,male,75.0,posterior torso,MEL,malignant,1,44,1024,680
+ISIC_0013917_downsampled,-1,male,55.0,lower extremity,MEL,malignant,1,42,1024,680
+ISIC_0013925_downsampled,-1,female,75.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0013936_downsampled,-1,male,25.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0013948_downsampled,-1,female,70.0,upper extremity,MEL,malignant,1,38,1024,680
+ISIC_0013953_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,32,1024,685
+ISIC_0013969_downsampled,-1,female,80.0,anterior torso,MEL,malignant,1,32,1024,680
+ISIC_0013972_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,58,1024,680
+ISIC_0013975_downsampled,-1,female,80.0,head/neck,MEL,malignant,1,32,1024,680
+ISIC_0013984_downsampled,-1,male,60.0,lower extremity,MEL,malignant,1,36,1024,680
+ISIC_0013986_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,46,1024,680
+ISIC_0013987_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,50,1024,680
+ISIC_0013988_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,58,1024,680
+ISIC_0013995_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,58,1024,680
+ISIC_0013997_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,52,1024,680
+ISIC_0014013_downsampled,-1,male,50.0,,MEL,malignant,1,48,1024,680
+ISIC_0014027_downsampled,-1,male,55.0,upper extremity,MEL,malignant,1,40,1024,680
+ISIC_0014037_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,34,1024,680
+ISIC_0014044_downsampled,-1,female,55.0,upper extremity,MEL,malignant,1,36,1024,680
+ISIC_0014049_downsampled,-1,male,75.0,posterior torso,MEL,malignant,1,56,1024,680
+ISIC_0014059_downsampled,-1,male,50.0,lateral torso,MEL,malignant,1,38,1024,680
+ISIC_0014061_downsampled,-1,female,60.0,posterior torso,MEL,malignant,1,34,1024,680
+ISIC_0014062_downsampled,-1,female,60.0,head/neck,MEL,malignant,1,32,1024,680
+ISIC_0014072_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,42,1024,680
+ISIC_0014076_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0014077_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,48,1024,680
+ISIC_0014079_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0014082_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0014088_downsampled,-1,female,45.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0014092_downsampled,-1,female,65.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0014099_downsampled,-1,female,85.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0014103_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0014108_downsampled,-1,male,80.0,posterior torso,MEL,malignant,1,48,1024,680
+ISIC_0014110_downsampled,-1,male,70.0,lower extremity,MEL,malignant,1,32,1024,680
+ISIC_0014127_downsampled,-1,male,50.0,posterior torso,MEL,malignant,1,52,1024,680
+ISIC_0014129_downsampled,-1,female,60.0,anterior torso,MEL,malignant,1,50,1024,680
+ISIC_0014132_downsampled,-1,male,50.0,head/neck,MEL,malignant,1,52,1024,680
+ISIC_0014133_downsampled,-1,male,85.0,anterior torso,MEL,malignant,1,52,1024,680
+ISIC_0014136_downsampled,-1,female,75.0,upper extremity,MEL,malignant,1,50,1024,680
+ISIC_0014144_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,58,1024,680
+ISIC_0014148_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,58,1024,680
+ISIC_0014151_downsampled,-1,male,80.0,lower extremity,MEL,malignant,1,40,1024,680
+ISIC_0014156_downsampled,-1,male,75.0,posterior torso,MEL,malignant,1,46,1024,680
+ISIC_0014157_downsampled,-1,male,55.0,posterior torso,MEL,malignant,1,56,1024,680
+ISIC_0014160_downsampled,-1,female,55.0,upper extremity,MEL,malignant,1,34,1024,680
+ISIC_0014163_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,30,1024,680
+ISIC_0014171_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,50,1024,680
+ISIC_0014173_downsampled,-1,male,55.0,anterior torso,MEL,malignant,1,48,1024,680
+ISIC_0014181_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,36,1024,680
+ISIC_0014183_downsampled,-1,male,85.0,anterior torso,MEL,malignant,1,30,1024,680
+ISIC_0014186_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,44,1024,680
+ISIC_0014187_downsampled,-1,female,80.0,head/neck,MEL,malignant,1,50,1024,680
+ISIC_0014189_downsampled,-1,male,85.0,anterior torso,MEL,malignant,1,36,1024,680
+ISIC_0014190_downsampled,-1,female,80.0,posterior torso,MEL,malignant,1,30,1024,680
+ISIC_0014217_downsampled,-1,male,80.0,posterior torso,MEL,malignant,1,48,1024,680
+ISIC_0014219_downsampled,-1,female,65.0,upper extremity,MEL,malignant,1,44,1024,680
+ISIC_0014221_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,58,1024,680
+ISIC_0014222_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,58,1024,680
+ISIC_0014229_downsampled,-1,female,75.0,lower extremity,MEL,malignant,1,38,1024,680
+ISIC_0014233_downsampled,-1,female,80.0,posterior torso,MEL,malignant,1,40,1024,680
+ISIC_0014238_downsampled,-1,female,55.0,posterior torso,MEL,malignant,1,46,1024,680
+ISIC_0014249_downsampled,-1,male,85.0,posterior torso,MEL,malignant,1,50,1024,680
+ISIC_0014255_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,32,1024,680
+ISIC_0014270_downsampled,-1,female,85.0,lower extremity,MEL,malignant,1,52,1024,680
+ISIC_0014284_downsampled,-1,male,50.0,head/neck,MEL,malignant,1,52,1024,680
+ISIC_0014288_downsampled,-1,female,65.0,lower extremity,MEL,malignant,1,58,1024,680
+ISIC_0014289_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,-1,1024,680
+ISIC_0014290_downsampled,-1,female,60.0,upper extremity,MEL,malignant,1,36,1024,680
+ISIC_0014291_downsampled,-1,male,60.0,posterior torso,MEL,malignant,1,34,1024,680
+ISIC_0014302_downsampled,-1,male,85.0,posterior torso,MEL,malignant,1,38,1024,680
+ISIC_0014308_downsampled,-1,female,80.0,upper extremity,MEL,malignant,1,46,1024,680
+ISIC_0014316_downsampled,-1,female,60.0,posterior torso,MEL,malignant,1,44,1024,680
+ISIC_0014319_downsampled,-1,female,70.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0014324_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,56,1024,680
+ISIC_0014325_downsampled,-1,female,70.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0014327_downsampled,-1,female,80.0,lower extremity,MEL,malignant,1,36,1024,680
+ISIC_0014331_downsampled,-1,female,60.0,head/neck,MEL,malignant,1,-1,1024,680
+ISIC_0014336_downsampled,-1,male,80.0,head/neck,MEL,malignant,1,34,1024,680
+ISIC_0014337_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,34,1024,680
+ISIC_0014347_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,56,1024,680
+ISIC_0014349_downsampled,-1,male,80.0,posterior torso,MEL,malignant,1,32,1024,680
+ISIC_0014357_downsampled,-1,male,65.0,head/neck,MEL,malignant,1,32,1024,680
+ISIC_0014360_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,-1,1024,680
+ISIC_0014361_downsampled,-1,male,70.0,lower extremity,MEL,malignant,1,48,1024,680
+ISIC_0014366_downsampled,-1,female,70.0,posterior torso,MEL,malignant,1,42,1024,680
+ISIC_0014369_downsampled,-1,male,25.0,lower extremity,MEL,malignant,1,-1,1024,680
+ISIC_0014372_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0014385_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,38,1024,680
+ISIC_0014395_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,54,1024,680
+ISIC_0014422_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,32,1024,680
+ISIC_0014423_downsampled,-1,female,80.0,head/neck,MEL,malignant,1,46,1024,680
+ISIC_0014428_downsampled,-1,female,55.0,anterior torso,MEL,malignant,1,42,1024,680
+ISIC_0014434_downsampled,-1,female,35.0,upper extremity,MEL,malignant,1,50,1024,680
+ISIC_0014454_downsampled,-1,female,65.0,upper extremity,MEL,malignant,1,46,1024,680
+ISIC_0014476_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,680
+ISIC_0014478_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,-1,1024,680
+ISIC_0014480_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,54,1024,680
+ISIC_0014486_downsampled,-1,female,85.0,lower extremity,MEL,malignant,1,36,1024,680
+ISIC_0014489_downsampled,-1,female,60.0,anterior torso,MEL,malignant,1,36,1024,680
+ISIC_0014501_downsampled,-1,female,70.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0014506_downsampled,-1,female,80.0,upper extremity,MEL,malignant,1,38,1024,680
+ISIC_0014507_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,-1,1024,680
+ISIC_0014513_downsampled,-1,female,70.0,upper extremity,MEL,malignant,1,-1,1024,680
+ISIC_0014518_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,58,1024,680
+ISIC_0014525_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,52,1024,680
+ISIC_0014527_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,36,1024,680
+ISIC_0014541_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,48,1024,680
+ISIC_0014542_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,50,1024,680
+ISIC_0014543_downsampled,-1,female,55.0,lower extremity,MEL,malignant,1,54,1024,680
+ISIC_0014545_downsampled,-1,female,55.0,anterior torso,MEL,malignant,1,32,1024,680
+ISIC_0014546_downsampled,-1,female,65.0,posterior torso,MEL,malignant,1,58,1024,680
+ISIC_0014548_downsampled,-1,female,65.0,anterior torso,MEL,malignant,1,36,1024,680
+ISIC_0014557_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,56,1024,680
+ISIC_0014558_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,48,1024,680
+ISIC_0014559_downsampled,-1,male,75.0,anterior torso,MEL,malignant,1,32,1024,680
+ISIC_0014663_downsampled,-1,male,85.0,upper extremity,MEL,malignant,1,42,1024,687
+ISIC_0014666_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,42,1024,681
+ISIC_0014688_downsampled,-1,male,70.0,anterior torso,MEL,malignant,1,46,1024,677
+ISIC_0014695_downsampled,-1,male,40.0,posterior torso,MEL,malignant,1,36,1024,681
+ISIC_0014703_downsampled,-1,male,75.0,lower extremity,MEL,malignant,1,46,1024,682
+ISIC_0014722_downsampled,-1,female,40.0,posterior torso,MEL,malignant,1,36,1024,682
+ISIC_0014727_downsampled,-1,male,65.0,head/neck,MEL,malignant,1,32,1024,684
+ISIC_0014735_downsampled,-1,female,35.0,lower extremity,MEL,malignant,1,34,1024,677
+ISIC_0014766_downsampled,-1,male,50.0,upper extremity,MEL,malignant,1,42,1024,683
+ISIC_0014772_downsampled,-1,male,75.0,upper extremity,MEL,malignant,1,50,1024,678
+ISIC_0014784_downsampled,-1,male,45.0,anterior torso,MEL,malignant,1,42,1024,681
+ISIC_0014788_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,48,1024,686
+ISIC_0014790_downsampled,-1,male,85.0,head/neck,MEL,malignant,1,40,1024,684
+ISIC_0014795_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,32,1024,681
+ISIC_0014800_downsampled,-1,female,45.0,lower extremity,MEL,malignant,1,34,1024,681
+ISIC_0014809_downsampled,-1,female,70.0,posterior torso,MEL,malignant,1,54,1024,683
+ISIC_0014826_downsampled,-1,male,45.0,anterior torso,MEL,malignant,1,42,1024,680
+ISIC_0014832_downsampled,-1,male,55.0,upper extremity,MEL,malignant,1,30,1024,684
+ISIC_0014857_downsampled,-1,male,70.0,posterior torso,MEL,malignant,1,58,1024,685
+ISIC_0014862_downsampled,-1,female,25.0,anterior torso,MEL,malignant,1,42,1024,681
+ISIC_0014872_downsampled,-1,male,50.0,upper extremity,MEL,malignant,1,32,1024,684
+ISIC_0014883_downsampled,-1,unknown,,palms/soles,MEL,malignant,1,38,1024,681
+ISIC_0014891_downsampled,-1,male,40.0,upper extremity,MEL,malignant,1,30,1024,681
+ISIC_0014897_downsampled,-1,female,,upper extremity,MEL,malignant,1,48,1024,684
+ISIC_0014912_downsampled,-1,female,,lower extremity,MEL,malignant,1,34,1024,677
+ISIC_0014919_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,54,1024,680
+ISIC_0014920_downsampled,-1,female,25.0,posterior torso,MEL,malignant,1,56,1024,681
+ISIC_0014922_downsampled,-1,female,,upper extremity,MEL,malignant,1,42,1024,681
+ISIC_0014928_downsampled,-1,female,30.0,posterior torso,MEL,malignant,1,42,1024,679
+ISIC_0014931_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,52,1024,679
+ISIC_0014932_downsampled,-1,unknown,,palms/soles,MEL,malignant,1,36,1024,679
+ISIC_0014946_downsampled,-1,male,65.0,posterior torso,MEL,malignant,1,36,1024,679
+ISIC_0014951_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,46,1024,679
+ISIC_0014963_downsampled,-1,male,60.0,lateral torso,MEL,malignant,1,44,1024,682
+ISIC_0014975_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,44,1024,682
+ISIC_0014979_downsampled,-1,male,70.0,upper extremity,MEL,malignant,1,32,1024,681
+ISIC_0014982_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,50,1024,681
+ISIC_0014983_downsampled,-1,male,55.0,lower extremity,MEL,malignant,1,48,1024,683
+ISIC_0014985_downsampled,-1,male,60.0,head/neck,MEL,malignant,1,42,1024,682
+ISIC_0014987_downsampled,-1,female,40.0,upper extremity,MEL,malignant,1,48,1024,683
+ISIC_0015004_downsampled,-1,male,65.0,anterior torso,MEL,malignant,1,50,1024,688
+ISIC_0015005_downsampled,-1,female,55.0,posterior torso,MEL,malignant,1,50,1024,683
+ISIC_0015041_downsampled,-1,female,50.0,upper extremity,MEL,malignant,1,42,1024,680
+ISIC_0015045_downsampled,-1,male,55.0,posterior torso,MEL,malignant,1,52,1024,679
+ISIC_0015046_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,32,1024,681
+ISIC_0015050_downsampled,-1,male,50.0,anterior torso,MEL,malignant,1,38,1024,679
+ISIC_0015071_downsampled,-1,female,35.0,upper extremity,MEL,malignant,1,44,1024,677
+ISIC_0015079_downsampled,-1,unknown,,posterior torso,MEL,malignant,1,38,1024,680
+ISIC_0015082_downsampled,-1,female,55.0,posterior torso,MEL,malignant,1,44,1024,677
+ISIC_0015109_downsampled,-1,male,40.0,posterior torso,MEL,malignant,1,38,1024,682
+ISIC_0015110_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,38,1024,674
+ISIC_0015115_downsampled,-1,male,60.0,upper extremity,MEL,malignant,1,48,1024,677
+ISIC_0015119_downsampled,-1,male,55.0,,MEL,malignant,1,42,1024,679
+ISIC_0015124_downsampled,-1,male,45.0,posterior torso,MEL,malignant,1,44,1024,677
+ISIC_0015127_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,52,1024,674
+ISIC_0015132_downsampled,-1,male,75.0,posterior torso,MEL,malignant,1,48,1024,677
+ISIC_0015133_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,48,1024,683
+ISIC_0015136_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,36,1024,677
+ISIC_0015142_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,30,1024,674
+ISIC_0015156_downsampled,-1,female,65.0,anterior torso,MEL,malignant,1,48,1024,681
+ISIC_0015163_downsampled,-1,female,75.0,head/neck,MEL,malignant,1,50,1024,682
+ISIC_0015166_downsampled,-1,unknown,,posterior torso,MEL,malignant,1,30,1024,689
+ISIC_0015167_downsampled,-1,unknown,,head/neck,MEL,malignant,1,50,1024,678
+ISIC_0015180_downsampled,-1,male,65.0,head/neck,MEL,malignant,1,42,1024,679
+ISIC_0015185_downsampled,-1,male,70.0,head/neck,MEL,malignant,1,50,1024,684
+ISIC_0015189_downsampled,-1,male,35.0,posterior torso,MEL,malignant,1,48,1024,681
+ISIC_0015190_downsampled,-1,male,80.0,upper extremity,MEL,malignant,1,32,1024,680
+ISIC_0015193_downsampled,-1,unknown,,lower extremity,MEL,malignant,1,32,1024,682
+ISIC_0015200_downsampled,-1,unknown,,upper extremity,MEL,malignant,1,50,1024,679
+ISIC_0015204_downsampled,-1,male,30.0,lower extremity,MEL,malignant,1,30,1024,681
+ISIC_0015206_downsampled,-1,female,40.0,lower extremity,MEL,malignant,1,46,1024,684
+ISIC_0015219_downsampled,-1,male,,upper extremity,MEL,malignant,1,52,1024,684
+ISIC_0015229_downsampled,-1,male,75.0,lower extremity,MEL,malignant,1,30,1024,679
+ISIC_0015243_downsampled,-1,male,60.0,anterior torso,MEL,malignant,1,58,1024,682
+ISIC_0015251_downsampled,-1,female,45.0,posterior torso,MEL,malignant,1,48,1024,682
+ISIC_0015256_downsampled,-1,male,65.0,upper extremity,MEL,malignant,1,38,1024,684
+ISIC_0015284_downsampled,-1,male,75.0,head/neck,MEL,malignant,1,36,1024,680
 ISIC_0024310,-1,male,60.0,anterior torso,MEL,malignant,1,30,600,450
 ISIC_0024313,-1,female,50.0,posterior torso,MEL,malignant,1,50,600,450
 ISIC_0024315,-1,male,55.0,,MEL,malignant,1,54,600,450

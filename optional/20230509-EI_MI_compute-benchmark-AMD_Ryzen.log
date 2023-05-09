@@ -1,35 +1,3 @@
-2023-05-09 10:28:20,989 INFO ================================================================================
-2023-05-09 10:28:20,989 INFO Begin logging
-2023-05-09 10:28:21,028 INFO Using NUMBA
-2023-05-09 10:28:21,028 INFO -------------------- System Information
-2023-05-09 10:28:21,029 INFO System: Windows
-2023-05-09 10:28:21,029 INFO Node Name: Ryzen9-Win10
-2023-05-09 10:28:21,029 INFO Release: 10
-2023-05-09 10:28:21,029 INFO Version: 10.0.19041
-2023-05-09 10:28:21,029 INFO Machine: AMD64
-2023-05-09 10:28:21,029 INFO Processor: AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
-2023-05-09 10:28:21,029 INFO -------------------- CPU Info
-2023-05-09 10:28:21,029 INFO Max Frequency: 3793.00Mhz
-2023-05-09 10:28:21,029 INFO Min Frequency: 0.00Mhz
-2023-05-09 10:28:21,029 INFO Current Frequency: 3793.00Mhz
-2023-05-09 10:28:21,029 INFO -------------------- Memory Information
-2023-05-09 10:28:21,029 INFO Total: 63.91GB
-2023-05-09 10:28:21,029 INFO Available: 36.91GB
-2023-05-09 10:28:21,029 INFO Used: 27.00GB
-2023-05-09 10:28:21,029 INFO Percentage: 42.2%
-2023-05-09 10:28:21,029 INFO ---------- SWAP
-2023-05-09 10:28:21,029 INFO Total: 46.00GB
-2023-05-09 10:28:21,030 INFO Free: 7.22GB
-2023-05-09 10:28:21,030 INFO Used: 38.78GB
-2023-05-09 10:28:21,030 INFO Percentage: 84.3%
-2023-05-09 10:28:21,030 INFO 
--------------------- Benchmarking
-2023-05-09 10:28:21,030 INFO ---> 3000 number of rounds
-2023-05-09 10:28:32,674 INFO Total time for Hpeg files loading: 11.644s
-2023-05-09 10:28:32,674 INFO ---> Image size: (1024, 1024, 3)
-2023-05-09 10:29:23,048 INFO Total time for MI computing: 50.374s
-2023-05-09 10:30:49,157 INFO Total time for EI computing: 86.108s
-2023-05-09 10:33:06,751 INFO Total time for EI+MI computing: 137.594s
 ================================================================================
 Begin logging
 Using NUMBA
@@ -46,20 +14,20 @@ Min Frequency: 0.00Mhz
 Current Frequency: 3793.00Mhz
 --------------------  Memory Information
 Total: 63.91GB
-Available: 36.75GB
-Used: 27.15GB
-Percentage: 42.5%
+Available: 36.53GB
+Used: 27.38GB
+Percentage: 42.8%
 ----------  SWAP
 Total: 46.00GB
-Free: 7.33GB
-Used: 38.67GB
-Percentage: 84.1%
+Free: 7.61GB
+Used: 38.39GB
+Percentage: 83.4%
 
 --------------------  Benchmarking
 
 ---> Running 3000 rounds
-Total time for Jpeg files loading: 11.632s
+Total time for Jpeg files loading: 11.647s
 ---> Image size: (1024, 1024, 3)
-Total time for MI computing: 50.217s
-Total time for EI computing: 85.445s
-Total time for EI+MI computing: 137.447s
+Total time for MI computing: 50.202s
+Total time for EI computing: 85.484s
+Total time for EI+MI computing: 137.146s

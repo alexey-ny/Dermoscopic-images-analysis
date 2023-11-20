@@ -1,0 +1,62 @@
+2023-11-18 21:24:00,636 INFO ********************************************************************************
+2023-11-18 21:24:00,636 INFO Begin logging
+2023-11-18 21:24:00,638 INFO Dataset 1 out of 6 - ./jpeg/test_MSKCC_2020/1024/, metadata file - consecutive-biopsies-for-melanoma-across-year-2020_metadata_2023-11-03.csv
+2023-11-18 21:24:00,646 INFO Dataset 2 out of 6 - ./jpeg/test_PROVe-AI/1024/, metadata file - prove-ai_metadata_2023-11-02.csv
+2023-11-18 21:24:00,656 INFO Dataset 3 out of 6 - ./jpeg/test_MSKCC_4/1024/, metadata file - test_msk-4_metadata.csv
+2023-11-18 21:24:00,670 INFO Dataset 4 out of 6 - ./jpeg/test_MSKCC_1/1024/, metadata file - test_msk-1_metadata.csv
+2023-11-18 21:24:00,685 INFO Dataset 5 out of 6 - ./jpeg/test_MSKCC_2/1024/, metadata file - test_msk-2_metadata.csv
+2023-11-18 21:24:00,708 INFO Dataset 6 out of 6 - ./jpeg/test_HIBA/1024/, metadata file - hiba-skin-lesions_metadata_2023-11-07.csv
+2023-11-18 21:24:00,721 INFO False    10116
+True      1629
+Name: target, dtype: int64
+2023-11-18 21:24:00,722 INFO 1th model out of 1: 5_v2b0_256_3_4_5ch_w_rank_5ups_EI_HSV_CV08889_08584
+2023-11-18 21:24:00,722 INFO   Image Size: 256, BS: 64, Rescaling flag: 2 (1 = to rescale)
+2023-11-18 21:24:00,722 INFO   Fold: 1
+2023-11-18 21:24:02,787 INFO     Predicting Validation without TTA...
+2023-11-18 21:25:02,774 INFO     3 channels OOF AUC without TTA = 0.6393, F1 = 0.2815, precision = 0.1760, recall = 0.7035
+2023-11-18 21:25:04,805 INFO     Predicting Validation without TTA...
+2023-11-18 21:26:21,715 INFO     4 channels OOF AUC without TTA = 0.6461, F1 = 0.2864, precision = 0.1821, recall = 0.6697
+2023-11-18 21:26:24,464 INFO     Predicting Validation without TTA...
+2023-11-18 21:27:50,874 INFO     5 channels OOF AUC without TTA = 0.6603, F1 = 0.2919, precision = 0.1852, recall = 0.6894
+2023-11-18 21:27:50,885 INFO   Fold: 2
+2023-11-18 21:27:52,974 INFO     Predicting Validation without TTA...
+2023-11-18 21:28:54,115 INFO     3 channels OOF AUC without TTA = 0.6658, F1 = 0.2994, precision = 0.1887, recall = 0.7244
+2023-11-18 21:28:56,140 INFO     Predicting Validation without TTA...
+2023-11-18 21:30:13,329 INFO     4 channels OOF AUC without TTA = 0.6518, F1 = 0.2976, precision = 0.2129, recall = 0.4942
+2023-11-18 21:30:15,505 INFO     Predicting Validation without TTA...
+2023-11-18 21:31:41,178 INFO     5 channels OOF AUC without TTA = 0.6642, F1 = 0.2985, precision = 0.1892, recall = 0.7078
+2023-11-18 21:31:41,178 INFO   Fold: 3
+2023-11-18 21:31:43,166 INFO     Predicting Validation without TTA...
+2023-11-18 21:32:42,512 INFO     3 channels OOF AUC without TTA = 0.6589, F1 = 0.2948, precision = 0.1836, recall = 0.7483
+2023-11-18 21:32:45,327 INFO     Predicting Validation without TTA...
+2023-11-18 21:34:02,325 INFO     4 channels OOF AUC without TTA = 0.6611, F1 = 0.2950, precision = 0.1874, recall = 0.6931
+2023-11-18 21:34:04,567 INFO     Predicting Validation without TTA...
+2023-11-18 21:35:31,117 INFO     5 channels OOF AUC without TTA = 0.6414, F1 = 0.2828, precision = 0.1906, recall = 0.5482
+2023-11-18 21:35:31,118 INFO   Fold: 4
+2023-11-18 21:35:33,259 INFO     Predicting Validation without TTA...
+2023-11-18 21:36:33,844 INFO     3 channels OOF AUC without TTA = 0.6259, F1 = 0.0434, precision = 0.2335, recall = 0.0239
+2023-11-18 21:36:35,881 INFO     Predicting Validation without TTA...
+2023-11-18 21:37:52,897 INFO     4 channels OOF AUC without TTA = 0.6462, F1 = 0.2290, precision = 0.2993, recall = 0.1854
+2023-11-18 21:37:54,841 INFO     Predicting Validation without TTA...
+2023-11-18 21:39:19,969 INFO     5 channels OOF AUC without TTA = 0.6535, F1 = 0.2954, precision = 0.2796, recall = 0.3131
+2023-11-18 21:39:19,969 INFO   Fold: 5
+2023-11-18 21:39:21,953 INFO     Predicting Validation without TTA...
+2023-11-18 21:40:21,870 INFO     3 channels OOF AUC without TTA = 0.6673, F1 = 0.3063, precision = 0.1945, recall = 0.7207
+2023-11-18 21:40:23,796 INFO     Predicting Validation without TTA...
+2023-11-18 21:41:40,058 INFO     4 channels OOF AUC without TTA = 0.6457, F1 = 0.2944, precision = 0.1966, recall = 0.5862
+2023-11-18 21:41:42,912 INFO     Predicting Validation without TTA...
+2023-11-18 21:43:08,910 INFO     5 channels OOF AUC without TTA = 0.6244, F1 = 0.2833, precision = 0.1813, recall = 0.6483
+2023-11-18 21:43:08,910 INFO Confusion matrices for ensembles
+2023-11-18 21:43:08,913 INFO     Confusion matrix for 3 channels averaged
+2023-11-18 21:43:08,913 INFO [[5578  518]
+ [4538 1111]]
+2023-11-18 21:43:08,916 INFO     Confusion matrix for 4 channels averaged
+2023-11-18 21:43:08,916 INFO [[6498  698]
+ [3618  931]]
+2023-11-18 21:43:08,916 INFO     Confusion matrix for 5 channels averaged
+2023-11-18 21:43:08,916 INFO [[5973  609]
+ [4143 1020]]
+2023-11-18 21:43:08,916 INFO Ensemble predictions
+2023-11-18 21:43:08,925 INFO     3 channels OOF AUC without TTA = 0.6717, F1 = 0.3053, precision = 0.1967, recall = 0.6820
+2023-11-18 21:43:08,931 INFO     4 channels OOF AUC without TTA = 0.6632, F1 = 0.3014, precision = 0.2047, recall = 0.5715
+2023-11-18 21:43:08,937 INFO     5 channels OOF AUC without TTA = 0.6627, F1 = 0.3004, precision = 0.1976, recall = 0.6262

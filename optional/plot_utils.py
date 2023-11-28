@@ -14,7 +14,7 @@ import os
 
 # channels = ['3', 'EI', 'MI', '5']
 
-def plot_mean_ROC(target, predictions, channels, model_descr = '', to_dir = ''):
+def plot_mean_ROC(target, predictions, channels, model_descr = '', to_dir = '', channels_first = True):
     color_index = list(mcolors.CSS4_COLORS)
     colors = mcolors.CSS4_COLORS
     # color_index = list(mcolors.TABLEAU_COLORS)
@@ -27,12 +27,18 @@ def plot_mean_ROC(target, predictions, channels, model_descr = '', to_dir = ''):
     for n_ch, ch in enumerate(channels):  
         fig, ax = plt.subplots(figsize=(6, 6), dpi = 200)
         for fold in range(5):
-            fpr, tpr, t = roc_curve(target, predictions[ch][fold])
-            # fpr, tpr, t = roc_curve(y_test_set, oof_pred[ch][fold])
+            # print(fold, n_ch, ch, target.shape, predictions[ch][fold].shape, predictions[ch].T[fold].shape, predictions[ch].shape)
+            if channels_first:
+                fpr, tpr, t = roc_curve(target, predictions[ch][fold])
+                # fpr, tpr, t = roc_curve(y_test_set, oof_pred[ch][fold])
+                f_auc = roc_auc_score(target, predictions[ch][fold])
+            # f_auc = roc_auc_score(y_test_set, oof_pred[ch][fold])
+            else:
+                fpr, tpr, t = roc_curve(target, predictions[ch].T[fold])
+                f_auc = roc_auc_score(target, predictions[ch].T[fold])
+                
             interp_tpr = np.interp(mean_fpr, fpr, tpr)
             interp_tpr[0] = 0.0
-            f_auc = roc_auc_score(target, predictions[ch][fold])
-            # f_auc = roc_auc_score(y_test_set, oof_pred[ch][fold])
             tprs.append(interp_tpr)
             # aucs.append(viz.roc_auc)
             aucs.append(f_auc )
@@ -202,7 +208,7 @@ def plot_PR(target, predictions, channels):
         plt.show()
 
 
-def plot_mean_PR(target, predictions, channels, model_descr = '', to_dir = ''):
+def plot_mean_PR(target, predictions, channels, model_descr = '', to_dir = '', channels_first = True):
     color_index = list(mcolors.CSS4_COLORS)
     colors = mcolors.CSS4_COLORS
     # color_index = list(mcolors.TABLEAU_COLORS)
@@ -215,10 +221,14 @@ def plot_mean_PR(target, predictions, channels, model_descr = '', to_dir = ''):
         # fig, ax = plt.subplots(figsize=(6, 6))
         fig, ax = plt.subplots(figsize=(6, 6), dpi = 200)
         for fold in range(5):
-            f_pre, f_rec, t = precision_recall_curve(target, predictions[ch][fold])
-            f_f1 = metrics.f1_score(target, predictions[ch][fold] >= 0.5)
-            # f_pre, f_rec, t = precision_recall_curve(y_test_set, oof_pred[ch][fold])
-            # f_f1 = metrics.f1_score(y_test_set, oof_pred[ch][fold] >= 0.5)
+            if channels_first:
+                f_pre, f_rec, t = precision_recall_curve(target, predictions[ch][fold])
+                f_f1 = metrics.f1_score(target, predictions[ch][fold] >= 0.5)
+                # f_pre, f_rec, t = precision_recall_curve(y_test_set, oof_pred[ch][fold])
+                # f_f1 = metrics.f1_score(y_test_set, oof_pred[ch][fold] >= 0.5)
+            else:
+                f_pre, f_rec, t = precision_recall_curve(target, predictions[ch].T[fold])
+                f_f1 = metrics.f1_score(target, predictions[ch].T[fold] >= 0.5)
             interp_precision = np.interp(mean_recall, np.flip(f_rec), np.flip(f_pre))
             # interp_precision = np.interp(mean_recall, f_rec, f_pre)
             # interp_tpr = np.interp(mean_fpr, f_rec, f_pre)

@@ -19,15 +19,11 @@ import pandas as pd
 from imgaug import augmenters as iaa
 import math
 from sklearn.model_selection import KFold
-from sklearn.metrics import roc_auc_score, auc #, roc_curve, precision_recall_curve
+from sklearn.metrics import roc_auc_score, auc 
 from sklearn.metrics import average_precision_score, confusion_matrix
-# , f1_score, precision_score, classification_report
 from sklearn.utils import shuffle
 from sklearn.metrics import precision_recall_fscore_support, precision_recall_curve
 from sklearn.preprocessing import MinMaxScaler
-
-# import matplotlib.pyplot as plt
-# import matplotlib.colors as mcolors
 
 import tensorflow as tf
 from tensorflow.keras.layers import Input, GlobalAveragePooling2D, Dropout, Dense
@@ -39,14 +35,11 @@ from keras.utils.layer_utils import count_params
 
 from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.applications.resnet_v2 import ResNet50V2, ResNet101V2, ResNet152V2
-# from tensorflow.keras.applications.densenet import DenseNet121
 from tensorflow.keras.applications.efficientnet_v2 import EfficientNetV2B0, \
     EfficientNetV2B1, EfficientNetV2B2
-# import tensorflow.keras.applications.efficientnet_v2.preprocess_input as eff_v2_preprocess    
 from tensorflow.keras.applications.efficientnet import EfficientNetB0,\
     EfficientNetB1, EfficientNetB2, EfficientNetB3, EfficientNetB4, \
     EfficientNetB5, EfficientNetB6, EfficientNetB7
-# import tensorflow.keras.applications.efficientnet.preprocess_input as eff_v1_preprocess    
 from tensorflow.keras import mixed_precision
 from tqdm import tqdm
 from numba import njit
@@ -292,16 +285,6 @@ def Focal_Loss(y_true, y_pred, alpha = 0.25, gamma = 2, weight = 5):
 def build_model(dim = 128, n_ch = 3, net_ind = 0, dropout = False, focal_loss = False, PrRec_metric = False): 
 # def build_model(dim = 128, n_ch = 3, net_ind = 0, dropout = False, focal_loss = False): 
     inp = Input(shape = (dim, dim, n_ch), name = 'Image')
-    # x = tf.cast(inp, tf.float32)
-    # if net_ind < 8:
-    #     x = tf.keras.applications.efficientnet.preprocess_input(x)
-    # elif net_ind < 11:
-    #     x = tf.keras.applications.efficientnet_v2.preprocess_input(x)
-    # elif net_ind >= 11:
-    #     x = tf.keras.applications.resnet_v2.preprocess_input(x)
-    # else:
-    #     print('Error - no such model!')
-    #     return None
         
     # base = EFNS[net_ind](input_shape = (dim, dim, n_ch), weights='imagenet', include_top = False)
     base = EFNS[net_ind](input_shape = (dim, dim, n_ch), weights = None, include_top = False)
@@ -328,9 +311,7 @@ def build_model(dim = 128, n_ch = 3, net_ind = 0, dropout = False, focal_loss = 
         model.compile(optimizer = opt, loss = Focal_Loss, metrics = ['AUC', ])
     else:
         loss = tf.keras.losses.BinaryCrossentropy(label_smoothing=0.05) 
-        # model.compile(optimizer = opt, loss = loss, metrics = [pr_metric])
         # model.compile(optimizer = opt, loss = loss, metrics = [pr_metric, 'AUC'])
-        # model.compile(optimizer = opt, loss = loss, metrics = ['AUC'])
         model.compile(optimizer = opt, loss = loss, metrics = c_metrics)
     # model.compile(optimizer=opt, loss=loss, metrics=['AUC'])
     # model.summary()
